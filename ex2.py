@@ -1,16 +1,22 @@
-check
+import csv
+import operator
+
 class Heap:
     def __init__(self, file_name):
         """
         :param file_name: the name of the heap file to create. example: kiva_heap.txt
         """
-
+        self.filename=file_name
 
     def create(self, source_file):
         """
         The function create heap file from source file.
         :param source_file: the name of file to create from. example: kiva.txt
         """
+        myfile=open(source_file,"r")
+        targetfile=open(self.filename,"a")
+        targetfile.write(myfile.read())
+
 
     def insert(self, line):
         """
@@ -36,8 +42,8 @@ class Heap:
         """
 
 
-# heap = Heap('heap.txt')
-# heap.create('kiva.txt')
+heap = Heap('heap.txt')
+heap.create('kiva.txt')
 # heap.insert('653207,1500.0,USD,Agriculture')
 # heap.update('currency','PKR','NIS')
 # heap.delete('currency','NIS')
