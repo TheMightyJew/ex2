@@ -16,6 +16,8 @@ class Heap:
         myfile=open(source_file,"r")
         targetfile=open(self.filename,"a")
         targetfile.write(myfile.read())
+        targetfile.close()
+        myfile.close()
 
 
     def insert(self, line):
@@ -23,6 +25,9 @@ class Heap:
         The function insert new line to heap file
         :param line: string reprsent new row, separated by comma. example: '653207,1500.0,USD,Agriculture'
         """
+        targetfile = open(self.filename, "a")
+        targetfile.write(line)
+        targetfile.close()
 
     def delete(self, col_name, value):
         """
