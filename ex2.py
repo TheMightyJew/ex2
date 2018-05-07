@@ -14,8 +14,8 @@ class Heap:
         :param source_file: the name of file to create from. example: kiva.txt
         """
         myfile=open(source_file,"r")
-        targetfile=open(self.filename,"a")
-        targetfile.write(myfile.read())
+        targetfile=open(self.filename,"w")
+        targetfile.write(myfile.read() + '\n')
         targetfile.close()
         myfile.close()
 
@@ -25,9 +25,10 @@ class Heap:
         The function insert new line to heap file
         :param line: string reprsent new row, separated by comma. example: '653207,1500.0,USD,Agriculture'
         """
-        targetfile = open(self.filename, "a")
-        targetfile.write(line)
-        targetfile.close()
+        fields = line.split(',')
+        with open(self.filename, 'a') as f:
+            writer = csv.writer(f)
+            writer.writerow(fields)
 
     def delete(self, col_name, value):
         """
@@ -36,7 +37,13 @@ class Heap:
         :param col_name: the name of the column. example: 'currency'
         :param value: example: 'PKR'
         """
-
+        tempfile = open('temp.txt','a')
+        with open(self.filename, 'r') as readFile, tempfile as writeFile:
+            for row in readFile:
+                if row[col_name] == value:
+                    writeFile.write('#' + row)
+                else:
+                    writeFile.write(row)
 
     def update(self, col_name, old_value, new_value, ):
         """
@@ -49,9 +56,9 @@ class Heap:
 
 heap = Heap('heap.txt')
 heap.create('kiva.txt')
-# heap.insert('653207,1500.0,USD,Agriculture')
-# heap.update('currency','PKR','NIS')
-# heap.delete('currency','NIS')
+heap.insert('653207,1500.0,USD,Agriculture')
+#heap.update('currency','PKR','NIS')
+#heap.delete('currency','PKR')
 
 class SortedFile:
 
