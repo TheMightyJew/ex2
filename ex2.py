@@ -29,10 +29,6 @@ class Heap:
         writefile=open(self.filename, 'a')
         writefile.write('\n'+line)
         writefile.close()
-        #fields = line.split(',')
-        #with open(self.filename, 'a') as f:
-        #   writer = csv.writer(f)
-        #   writer.writerow(fields)
 
     def delete(self, col_name, value):
         """
@@ -110,7 +106,7 @@ heap.create('kiva.txt')
 heap.insert('653207,1500.0,USD,Agriculture')
 heap.insert('653208,1500.0,USD,Agriculture')
 heap.update('currency','PKR','NIS')
-heap.delete('currency','PKR')
+heap.delete('currency','USD')
 
 class SortedFile:
 
@@ -119,18 +115,81 @@ class SortedFile:
         :param file_name: the name of the sorted file to create. example: kiva_sorted.txt
         :param col_name: the name of the column to sort by. example: 'lid'
         """
+        self.fileName=file_name
+        self.sortBy=col_name
 
     def create(self, source_file):
         """
         The function create sorted file from source file.
         :param source_file: the name of file to create from. example: kiva.txt
         """
+        reader=open(source_file,'r')
+        mycsv=csv.reader(reader)
+        targetfile=open(self.fileName,"w")
+        newRow=''
+        for word in next(mycsv):
+            newRow += word + ','
+        newRow =newRow[:-1]
+        targetfile.write(newRow)
+        num=0
+        for row in mycsv:
+            num+=1
+        reader.seek(0)
+        for row in mycsv:
+
+        for i in range[0,num]:
+
+            for
+        for row in mycsv:
+        targetfile.close()
+        for row in mycsv:
+            newRow = ''
+            for word in row:
+                newRow +=word + ','
+            newRow =newRow[:-1]
+            self.insert(newRow)
 
     def insert(self, line):
         """
         The function insert new line to sorted file according to the value of col_name.
         :param line: string of row separated by comma. example: '653207,1500.0,USD,Agriculture'
         """
+        if os._exists('temp.txt'):
+            os.remove('temp.txt')
+        writeFile = open('temp.txt','a')
+        mycsv=csv.reader(open(self.fileName))
+        indexCol=0
+        counter=0
+        newRow = ""
+        for word in next(mycsv):
+            newRow += word + ','
+            if word==self.sortBy:
+                indexCol=counter
+            else :
+                counter+=1
+        newRow = newRow[:-1]
+        writeFile.write(newRow)
+        fields=line.split(',')
+        written=False
+        for row in mycsv:
+            newRow = ''
+            if row[indexCol] > fields[indexCol] and written==False:
+                writeFile.write('\n'+line)
+                written=True
+            for word in row:
+                newRow += word + ','
+            newRow = '\n'+newRow[:-1]
+            writeFile.write(newRow)
+        if written==False:
+            writeFile.write('\n' + line)
+            written = True
+        writeFile.close()
+        myfile=open('temp.txt',"r")
+        targetfile=open(self.fileName,"w")
+        targetfile.write(myfile.read())
+        targetfile.close()
+        myfile.close()
+        os.remove('temp.txt')
 
     def delete(self, value):
         """
@@ -138,6 +197,33 @@ class SortedFile:
         Deletion done by mark # in the head of line.
         :param value: example: 'PKR'
         """
+        if os._exists('temp.txt'):
+            os.remove('temp.txt')
+        writeFile = open('temp.txt','a')
+        mycsv=csv.reader(open(self.fileName))
+        indexCol=0
+        counter=0
+        newRow = ""
+        for word in next(mycsv):
+            newRow += word + ','
+            if word==self.sortBy:
+                indexCol=counter
+            else :
+                counter+=1
+        newRow = newRow[:-1]
+        writeFile.write(newRow)
+        for row in mycsv:
+            newRow = ''
+            for word in row:
+                newRow += word + ','
+            newRow =newRow[:-1]
+            if row[indexCol] == value:
+                writeFile.write('\n'+'#' + newRow)
+            else:
+                writeFile.write('\n'+newRow)
+        writeFile.close()
+        self.create('temp.txt')
+        os.remove('temp.txt')
 
     def update(self, old_value, new_value):
         """
@@ -145,13 +231,48 @@ class SortedFile:
         :param old_value: example: 'TZS'
         :param new_value: example: 'NIS'
         """
+        if os._exists('temp.txt'):
+            os.remove('temp.txt')
+        writeFile = open('temp.txt','a')
+        mycsv=csv.reader(open(self.fileName))
+        indexCol=0
+        counter=0
+        newRow = ""
+        for word in next(mycsv):
+            newRow += word + ','
+            if word==self.sortBy:
+                indexCol=counter
+            else :
+                counter+=1
+        newRow = newRow[:-1]
+        writeFile.write(newRow)
+        changedLine=[]
+        for row in mycsv:
+            if row[indexCol] == old_value:
+                changedLine.append(row)
+                continue
+            else:
+                newRow = ''
+                for word in row:
+                    newRow += word + ','
+                newRow = newRow[:-1]
+                writeFile.write('\n'+newRow)
+        for line in changedLine:
+            newRow = ''
+            line[indexCol]=new_value
+            for word in line:
+                newRow += word + ','
+            newRow = newRow[:-1]
+            self.insert(newRow)
+        writeFile.close()
+        self.create('temp.txt')
+        os.remove('temp.txt')
 
-
-# sf = SortedFile('SortedFile.txt', 'currency')
-# sf.create('kiva.txt')
-# sf.insert('653207,2.0,USD,Agriculture')
-# sf.delete('625.0')
-# sf.update('150.0','12')
+sf = SortedFile('SortedFile.txt', 'loan_amount')
+sf.create('kiva.txt')
+sf.insert('653207,2.0,USD,Agriculture')
+sf.delete('625.0')
+sf.update('150.0','12')
 
 class Hash:
     def __init__(self, file_name, N=5):
