@@ -60,11 +60,11 @@ class Heap:
             newRow = ''
             for word in row:
                 newRow += word + ','
-            newRow = '\n'+newRow[:-1]
+            newRow =newRow[:-1]
             if row[indexCol] == value:
-                writeFile.write('#' + newRow)
+                writeFile.write('\n'+'#' + newRow)
             else:
-                writeFile.write(newRow)
+                writeFile.write('\n'+newRow)
         writeFile.close()
         self.create('temp.txt')
         os.remove('temp.txt')
@@ -108,9 +108,9 @@ class Heap:
 heap = Heap('heap.txt')
 heap.create('kiva.txt')
 heap.insert('653207,1500.0,USD,Agriculture')
-heap.insert('653207777,1500.0,USD,Agriculture')
+heap.insert('653208,1500.0,USD,Agriculture')
 heap.update('currency','PKR','NIS')
-heap.delete('currency','NIS')
+heap.delete('currency','PKR')
 
 class SortedFile:
 

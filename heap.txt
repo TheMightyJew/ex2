@@ -1,48 +1,48 @@
-lid,loan_amount,currency,sector#
-653051,300.0,NIS,Food#
+lid,loan_amount,currency,sector
+653051,300.0,NIS,Food
 653053,575.0,NIS,Transportation
-653068,150.0,INR,Transportation#
-653063,200.0,NIS,Arts#
+653068,150.0,INR,Transportation
+653063,200.0,NIS,Arts
 653084,400.0,NIS,Food
 1080148,250.0,KES,Services
-653067,200.0,INR,Agriculture#
-653078,400.0,NIS,Services#
-653082,475.0,NIS,Manufacturing#
-653048,625.0,NIS,Food#
-653060,200.0,NIS,Transportation#
-653088,400.0,NIS,Wholesale#
-653089,400.0,NIS,Retail#
+653067,200.0,INR,Agriculture
+653078,400.0,NIS,Services
+653082,475.0,NIS,Manufacturing
+653048,625.0,NIS,Food
+653060,200.0,NIS,Transportation
+653088,400.0,NIS,Wholesale
+653089,400.0,NIS,Retail
 653062,400.0,NIS,Clothing
-653075,225.0,INR,Agriculture#
-653054,300.0,NIS,Transportation#
-653091,400.0,NIS,Retail#
+653075,225.0,INR,Agriculture
+653054,300.0,NIS,Transportation
+653091,400.0,NIS,Retail
 653052,875.0,NIS,Services
-653066,250.0,INR,Services#
-653080,475.0,NIS,Services#
-653065,250.0,NIS,Food#
-653055,350.0,NIS,Food#
-653050,575.0,NIS,Clothing#
-653079,350.0,NIS,Arts#
+653066,250.0,INR,Services
+653080,475.0,NIS,Services
+653065,250.0,NIS,Food
+653055,350.0,NIS,Food
+653050,575.0,NIS,Clothing
+653079,350.0,NIS,Arts
 653061,250.0,NIS,Food
 653074,250.0,INR,Agriculture
-653069,250.0,INR,Construction#
+653069,250.0,INR,Construction
 653056,475.0,NIS,Transportation
 653071,125.0,INR,Agriculture
-653073,250.0,INR,Agriculture#
-653059,250.0,NIS,Clothing#
-653087,400.0,NIS,Manufacturing#
+653073,250.0,INR,Agriculture
+653059,250.0,NIS,Clothing
+653087,400.0,NIS,Manufacturing
 653076,450.0,NIS,Retail
-653072,250.0,INR,Agriculture#
-653086,400.0,NIS,Food#
-653047,2225.0,NIS,Retail#
-653058,400.0,NIS,Services#
-653083,475.0,NIS,Services#
-653057,350.0,NIS,Retail#
-653090,475.0,NIS,Retail#
-653064,250.0,NIS,Health#
-653077,475.0,NIS,Food#
-653081,200.0,NIS,Education#
-653049,250.0,NIS,Retail#
+653072,250.0,INR,Agriculture
+653086,400.0,NIS,Food
+653047,2225.0,NIS,Retail
+653058,400.0,NIS,Services
+653083,475.0,NIS,Services
+653057,350.0,NIS,Retail
+653090,475.0,NIS,Retail
+653064,250.0,NIS,Health
+653077,475.0,NIS,Food
+653081,200.0,NIS,Education
+653049,250.0,NIS,Retail
 653085,450.0,NIS,Transportation
 653070,150.0,INR,Agriculture
 653185,250.0,KES,Food
@@ -61,7 +61,7 @@ lid,loan_amount,currency,sector#
 653161,3175.0,TZS,Retail
 653192,800.0,USD,Agriculture
 653308,150.0,LRD,Food
-653290,4275.0,VND,Housing#
+653290,4275.0,VND,Housing
 653227,250.0,NIS,Clothing
 653181,1500.0,USD,Housing
 653242,325.0,PHP,Retail
@@ -99,7 +99,7 @@ lid,loan_amount,currency,sector#
 653217,2200.0,TZS,Health
 653345,600.0,KES,Food
 1080153,5000.0,USD,Food
-653373,1000.0,NIO,Food#
+653373,1000.0,NIO,Food
 653222,1250.0,NIS,Services
 653399,3975.0,PEN,Food
 653301,250.0,INR,Agriculture
@@ -260,9 +260,9 @@ lid,loan_amount,currency,sector#
 653315,200.0,LRD,Food
 653186,1000.0,USD,Personal Use
 653144,250.0,PHP,Agriculture
-653270,650.0,USD,Clothing#
+653270,650.0,USD,Clothing
 653215,450.0,NIS,Personal Use
-653356,125.0,PHP,Food#
+653356,125.0,PHP,Food
 653205,450.0,NIS,Retail
 653100,150.0,PHP,Agriculture
 653119,250.0,PHP,Food
@@ -391,7 +391,7 @@ lid,loan_amount,currency,sector#
 653445,725.0,PEN,Transportation
 653638,950.0,GHS,Food
 653441,200.0,HNL,Food
-653782,100.0,USD,Personal Use#
+653782,100.0,USD,Personal Use
 653657,450.0,NIS,Manufacturing
 653684,625.0,GHS,Retail
 653650,125.0,LRD,Food
@@ -413,13 +413,13 @@ lid,loan_amount,currency,sector#
 653537,500.0,USD,Education
 653513,2350.0,TZS,Services
 653587,125.0,KES,Clothing
-653775,725.0,USD,Agriculture#
+653775,725.0,USD,Agriculture
 653514,350.0,NIS,Clothing
 653599,175.0,XOF,Retail
 653580,1500.0,KHR,Agriculture
 653521,1175.0,KES,Clothing
 653729,1150.0,USD,Housing
-653783,2550.0,BOB,Arts#
+653783,2550.0,BOB,Arts
 653680,400.0,NIS,Manufacturing
 653606,850.0,KES,Food
 653573,625.0,TJS,Transportation
@@ -440,11 +440,11 @@ lid,loan_amount,currency,sector#
 653739,300.0,SLL,Retail
 653754,425.0,COP,Education
 653632,1050.0,TJS,Personal Use
-653582,600.0,KES,Retail#
+653582,600.0,KES,Retail
 653523,250.0,NIS,Transportation
 653549,250.0,KES,Food
 653730,300.0,USD,Housing
-653482,500.0,PHP,Agriculture#
+653482,500.0,PHP,Agriculture
 653618,300.0,NIS,Services
 653793,100.0,USD,Personal Use
 653458,475.0,PHP,Retail
@@ -452,10 +452,10 @@ lid,loan_amount,currency,sector#
 653760,500.0,USD,Housing
 653506,500.0,USD,Housing
 653630,250.0,INR,Agriculture
-653719,300.0,USD,Housing#
+653719,300.0,USD,Housing
 653670,400.0,NIS,Food
 653761,5000.0,USD,Agriculture
-653439,500.0,HNL,Food#
+653439,500.0,HNL,Food
 653526,350.0,NIS,Services
 653745,1450.0,HNL,Agriculture
 653697,350.0,KES,Personal Use
@@ -465,7 +465,7 @@ lid,loan_amount,currency,sector#
 653593,250.0,KES,Food
 653479,1000.0,USD,Services
 653696,600.0,KES,Personal Use
-653757,1075.0,PEN,Housing#
+653757,1075.0,PEN,Housing
 653667,475.0,NIS,Services
 653651,750.0,KHR,Agriculture
 653634,250.0,INR,Agriculture
@@ -475,13 +475,13 @@ lid,loan_amount,currency,sector#
 653734,350.0,SLL,Food
 653803,5450.0,USD,Services
 653781,700.0,USD,Retail
-653489,200.0,PEN,Agriculture#
+653489,200.0,PEN,Agriculture
 653662,400.0,NIS,Services
 653692,600.0,KES,Agriculture
 653500,800.0,PEN,Housing
 653553,125.0,KES,Food
 653542,1050.0,TJS,Agriculture
-653735,250.0,SLL,Food#
+653735,250.0,SLL,Food
 653566,200.0,NIS,Personal Use
 653476,300.0,USD,Food
 653646,225.0,INR,Agriculture
@@ -494,8 +494,8 @@ lid,loan_amount,currency,sector#
 653572,250.0,KES,Agriculture
 653443,3025.0,USD,Housing
 653556,1225.0,KES,Retail
-1080158,125.0,KES,Arts#
-653673,475.0,NIS,Agriculture#
+1080158,125.0,KES,Arts
+653673,475.0,NIS,Agriculture
 653525,400.0,NIS,Services
 653763,100.0,USD,Personal Use
 653789,700.0,USD,Retail
@@ -513,9 +513,9 @@ lid,loan_amount,currency,sector#
 653701,600.0,KES,Personal Use
 653643,500.0,KHR,Agriculture
 653625,375.0,USD,Education
-653581,700.0,USD,Transportation#
+653581,700.0,USD,Transportation
 653605,675.0,NIS,Retail
-653755,500.0,USD,Housing#
+653755,500.0,USD,Housing
 653683,400.0,NIS,Education
 653777,100.0,USD,Personal Use
 653487,250.0,PHP,Food
@@ -528,7 +528,7 @@ lid,loan_amount,currency,sector#
 653474,375.0,PEN,Retail
 653720,750.0,NIO,Education
 1080156,125.0,KES,Services
-653456,375.0,PHP,Agriculture#
+653456,375.0,PHP,Agriculture
 653536,150.0,NIS,Retail
 653595,500.0,KES,Food
 653460,300.0,USD,Agriculture
@@ -536,14 +536,14 @@ lid,loan_amount,currency,sector#
 653508,575.0,PHP,Retail
 1080155,125.0,KES,Services
 653505,1500.0,USD,Housing
-653727,700.0,USD,Services#
+653727,700.0,USD,Services
 653571,675.0,NIS,Services
 653538,1000.0,USD,Personal Use
 653635,250.0,INR,Food
 653577,2000.0,KHR,Agriculture
 653774,775.0,NIO,Agriculture
 653614,600.0,KES,Retail
-653596,750.0,KHR,Agriculture#
+653596,750.0,KHR,Agriculture
 653676,400.0,NIS,Agriculture
 653806,5450.0,USD,Retail
 653455,1075.0,PEN,Clothing
@@ -552,9 +552,9 @@ lid,loan_amount,currency,sector#
 653797,600.0,NIO,Housing
 653449,400.0,USD,Services
 653471,500.0,USD,Services
-653610,250.0,KES,Agriculture#
+653610,250.0,KES,Agriculture
 653679,575.0,NIS,Manufacturing
-653784,800.0,USD,Food#
+653784,800.0,USD,Food
 653661,475.0,NIS,Agriculture
 653481,550.0,PEN,Food
 653461,250.0,PHP,Retail
@@ -568,7 +568,7 @@ lid,loan_amount,currency,sector#
 653708,700.0,YER,Services
 653592,250.0,KES,Food
 653499,575.0,PHP,Retail
-653744,325.0,COP,Education#
+653744,325.0,COP,Education
 653663,450.0,NIS,Arts
 653714,450.0,COP,Education
 653545,600.0,KES,Housing
@@ -588,7 +588,7 @@ lid,loan_amount,currency,sector#
 653787,600.0,USD,Transportation
 653641,450.0,KHR,Agriculture
 653530,1000.0,KHR,Agriculture
-653598,1475.0,TJS,Food#
+653598,1475.0,TJS,Food
 653674,400.0,NIS,Food
 653688,600.0,KES,Clothing
 653586,225.0,XOF,Retail
@@ -611,17 +611,17 @@ lid,loan_amount,currency,sector#
 653722,300.0,USD,Housing
 653804,3925.0,USD,Food
 653504,1200.0,USD,Personal Use
-653694,350.0,KES,Retail#
+653694,350.0,KES,Retail
 653655,400.0,NIS,Retail
 653602,250.0,KES,Retail
 653574,1050.0,TJS,Agriculture
 653473,700.0,USD,Food
 653724,225.0,SLL,Retail
-653613,1225.0,KES,Food#
+653613,1225.0,KES,Food
 653552,250.0,NIS,Retail
 653709,700.0,YER,Construction
 653799,325.0,USD,Education
-653726,600.0,COP,Services#
+653726,600.0,COP,Services
 653510,400.0,NIS,Services
 653615,350.0,KES,Services
 653649,250.0,INR,Agriculture
@@ -630,7 +630,7 @@ lid,loan_amount,currency,sector#
 653686,600.0,KES,Retail
 653440,200.0,PEN,Food
 653597,500.0,USD,Housing
-653768,4575.0,HTG,Retail#
+653768,4575.0,HTG,Retail
 653668,400.0,NIS,Retail
 653762,300.0,USD,Food
 653484,375.0,PEN,Retail
@@ -649,7 +649,7 @@ lid,loan_amount,currency,sector#
 653693,3900.0,CLP,Food
 653653,2100.0,USD,Food
 1080157,125.0,KES,Services
-653475,250.0,PHP,Food#
+653475,250.0,PHP,Food
 653518,300.0,NIS,Transportation
 653637,250.0,INR,Agriculture
 653695,600.0,KES,Retail
@@ -672,10 +672,10 @@ lid,loan_amount,currency,sector#
 653640,250.0,INR,Retail
 653805,500.0,USD,Retail
 653711,600.0,KES,Construction
-653568,250.0,KES,Food#
+653568,250.0,KES,Food
 653660,400.0,NIS,Retail
-653478,825.0,PEN,Food#
-653677,400.0,NIS,Food#
+653478,825.0,PEN,Food
+653677,400.0,NIS,Food
 653551,200.0,NIS,Services
 653488,350.0,PHP,Agriculture
 653778,2025.0,HTG,Retail
@@ -687,7 +687,7 @@ lid,loan_amount,currency,sector#
 653733,425.0,SLL,Food
 653591,600.0,KHR,Agriculture
 653554,625.0,KHR,Agriculture
-653748,350.0,USD,Housing#
+653748,350.0,USD,Housing
 653515,475.0,NIS,Food
 653675,600.0,KES,Services
 653512,1275.0,TJS,Services
@@ -697,14 +697,14 @@ lid,loan_amount,currency,sector#
 653447,5000.0,USD,Services
 653723,450.0,COP,Education
 653501,300.0,PHP,Food
-653550,1325.0,USD,Education#
+653550,1325.0,USD,Education
 653520,475.0,NIS,Services
 653578,250.0,USD,Education
-653644,250.0,INR,Agriculture#
+653644,250.0,INR,Agriculture
 653658,400.0,NIS,Retail
-653493,425.0,PHP,Retail#
+653493,425.0,PHP,Retail
 653665,400.0,NIS,Agriculture
-653561,750.0,KHR,Agriculture#
+653561,750.0,KHR,Agriculture
 653672,400.0,NIS,Food
 653564,1325.0,KHR,Agriculture
 653533,850.0,KES,Clothing
@@ -714,7 +714,7 @@ lid,loan_amount,currency,sector#
 653450,725.0,PEN,Construction
 653700,600.0,KES,Personal Use
 653699,450.0,COP,Education
-653785,700.0,USD,Retail#
+653785,700.0,USD,Retail
 653671,400.0,NIS,Manufacturing
 653585,125.0,KES,Retail
 653780,4450.0,BOB,Clothing
@@ -722,7 +722,7 @@ lid,loan_amount,currency,sector#
 653623,300.0,SLL,Food
 653800,650.0,USD,Services
 653801,500.0,USD,Retail
-653691,650.0,GHS,Retail#
+653691,650.0,GHS,Retail
 653659,475.0,NIS,Retail
 653539,1175.0,KES,Housing
 653751,350.0,USD,Housing
@@ -866,7 +866,7 @@ lid,loan_amount,currency,sector#
 653953,100.0,UGX,Personal Use
 653942,625.0,JOD,Education
 653910,175.0,COP,Manufacturing
-654187,1875.0,BIF,Food#
+654187,1875.0,BIF,Food
 654233,300.0,NIS,Clothing
 654111,450.0,USD,Housing
 653988,1500.0,VND,Food
@@ -884,7 +884,7 @@ lid,loan_amount,currency,sector#
 654101,250.0,INR,Agriculture
 1080165,250.0,KES,Food
 654295,2650.0,NIO,Clothing
-654062,125.0,KES,Food#
+654062,125.0,KES,Food
 654021,400.0,NIS,Transportation
 654236,425.0,USD,Food
 654319,350.0,SLL,Retail
@@ -905,14 +905,14 @@ lid,loan_amount,currency,sector#
 654287,3800.0,XOF,Food
 654272,5625.0,PEN,Food
 654264,600.0,USD,Housing
-654377,1275.0,USD,Food#
+654377,1275.0,USD,Food
 654071,950.0,NIS,Food
 654288,300.0,USD,Retail
 653974,2600.0,COP,Agriculture
 654280,1500.0,USD,Services
 654244,125.0,LRD,Food
 654201,1000.0,USD,Retail
-1080163,125.0,KES,Food#
+1080163,125.0,KES,Food
 654281,200.0,NIS,Manufacturing
 654373,1000.0,USD,Services
 1080167,250.0,KES,Retail
@@ -927,7 +927,7 @@ lid,loan_amount,currency,sector#
 654095,475.0,YER,Food
 653977,225.0,PHP,Manufacturing
 654137,75.0,KES,Food
-654054,225.0,PHP,Agriculture#
+654054,225.0,PHP,Agriculture
 654286,1425.0,NIS,Retail
 654176,275.0,UGX,Agriculture
 654143,1400.0,SLL,Retail
@@ -953,7 +953,7 @@ lid,loan_amount,currency,sector#
 654328,300.0,USD,Clothing
 654031,700.0,YER,Retail
 653982,1075.0,VND,Agriculture
-654292,100.0,LRD,Services#
+654292,100.0,LRD,Services
 654030,350.0,NIS,Retail
 654257,125.0,LRD,Food
 654058,1350.0,PHP,Clothing
@@ -965,10 +965,10 @@ lid,loan_amount,currency,sector#
 653969,1125.0,PHP,Food
 654369,400.0,USD,Retail
 653968,600.0,USD,Food
-654218,250.0,KES,Clothing#
+654218,250.0,KES,Clothing
 654094,950.0,NIS,Retail
 654070,125.0,PHP,Agriculture
-653996,1550.0,COP,Agriculture#
+653996,1550.0,COP,Agriculture
 654027,300.0,NIS,Food
 654255,700.0,USD,Food
 654339,500.0,USD,Housing
@@ -980,7 +980,7 @@ lid,loan_amount,currency,sector#
 654273,450.0,BOB,Education
 654190,225.0,XOF,Agriculture
 654398,600.0,USD,Retail
-654248,1500.0,USD,Housing#
+654248,1500.0,USD,Housing
 654081,1900.0,NIS,Clothing
 654044,200.0,PHP,Food
 654197,175.0,KES,Agriculture
@@ -1015,7 +1015,7 @@ lid,loan_amount,currency,sector#
 654185,100.0,LRD,Food
 654302,225.0,LRD,Retail
 654135,4275.0,UAH,Clothing
-654333,1500.0,USD,Agriculture#
+654333,1500.0,USD,Agriculture
 654014,300.0,NIS,Transportation
 654023,600.0,USD,Clothing
 654086,825.0,SLL,Clothing
@@ -1038,7 +1038,7 @@ lid,loan_amount,currency,sector#
 654150,75.0,KES,Retail
 653963,1000.0,USD,Retail
 654110,1400.0,SLL,Construction
-654048,2350.0,YER,Retail#
+654048,2350.0,YER,Retail
 654136,475.0,NIS,Food
 654358,1500.0,USD,Personal Use
 654242,500.0,USD,Food
@@ -1049,11 +1049,11 @@ lid,loan_amount,currency,sector#
 653964,225.0,PHP,Retail
 653995,450.0,PHP,Retail
 654177,2100.0,INR,Arts
-654282,300.0,USD,Retail#
+654282,300.0,USD,Retail
 654123,350.0,NIS,Transportation
 654262,3525.0,XOF,Food
-654020,675.0,PHP,Transportation#
-654055,950.0,NIS,Retail#
+654020,675.0,PHP,Transportation
+654055,950.0,NIS,Retail
 654040,950.0,NIS,Retail
 654379,900.0,PEN,Clothing
 654188,250.0,KES,Agriculture
@@ -1063,7 +1063,7 @@ lid,loan_amount,currency,sector#
 653999,350.0,PHP,Clothing
 654074,925.0,SLL,Food
 654394,1075.0,USD,Retail
-654067,1000.0,IDR,Services#
+654067,1000.0,IDR,Services
 654035,1900.0,NIS,Retail
 654012,1000.0,USD,Clothing
 654002,1150.0,TZS,Clothing
@@ -1081,7 +1081,7 @@ lid,loan_amount,currency,sector#
 654321,500.0,USD,Food
 654102,1500.0,IDR,Services
 654383,1500.0,USD,Food
-654026,450.0,PHP,Retail#
+654026,450.0,PHP,Retail
 654144,300.0,NIS,Arts
 654108,250.0,INR,Construction
 653967,200.0,PHP,Construction
@@ -1092,15 +1092,15 @@ lid,loan_amount,currency,sector#
 654015,800.0,PHP,Housing
 654170,250.0,KES,Food
 654252,200.0,USD,Clothing
-654099,350.0,KES,Clothing#
+654099,350.0,KES,Clothing
 654061,625.0,NIS,Services
 654045,1000.0,USD,Clothing
 654265,1000.0,USD,Clothing
-654028,600.0,USD,Retail#
+654028,600.0,USD,Retail
 654046,950.0,NIS,Retail
 654098,1125.0,PHP,Retail
 1080170,125.0,KES,Construction
-654324,300.0,USD,Clothing#
+654324,300.0,USD,Clothing
 654238,250.0,NIS,Food
 654250,600.0,USD,Agriculture
 654249,400.0,USD,Agriculture
@@ -1120,7 +1120,7 @@ lid,loan_amount,currency,sector#
 654161,525.0,TJS,Personal Use
 654147,100.0,LRD,Food
 654173,2075.0,XOF,Agriculture
-654361,1425.0,PEN,Health#
+654361,1425.0,PEN,Health
 654119,325.0,NIS,Food
 653993,450.0,PHP,Retail
 654271,1000.0,USD,Housing
@@ -1154,7 +1154,7 @@ lid,loan_amount,currency,sector#
 654056,225.0,SLL,Retail
 654299,300.0,USD,Retail
 654167,2450.0,ALL,Agriculture
-654172,200.0,TJS,Services#
+654172,200.0,TJS,Services
 654266,300.0,NIS,Food
 653957,2600.0,COP,Agriculture
 654100,800.0,USD,Housing
@@ -1180,7 +1180,7 @@ lid,loan_amount,currency,sector#
 654090,2075.0,XOF,Food
 654220,2800.0,USD,Food
 654163,125.0,KES,Transportation
-654291,550.0,USD,Agriculture#
+654291,550.0,USD,Agriculture
 654246,875.0,NIS,Services
 654351,500.0,USD,Agriculture
 654003,425.0,PHP,Retail
@@ -1227,15 +1227,15 @@ lid,loan_amount,currency,sector#
 654231,1400.0,USD,Clothing
 654259,1000.0,USD,Housing
 654043,1175.0,YER,Food
-654396,1600.0,USD,Retail#
+654396,1600.0,USD,Retail
 654254,400.0,NIS,Transportation
-654268,875.0,BOB,Retail#
+654268,875.0,BOB,Retail
 654024,400.0,NIS,Transportation
 654005,1550.0,COP,Agriculture
 653966,800.0,USD,Clothing
 654290,500.0,USD,Agriculture
 654063,125.0,KES,Food
-654354,1200.0,USD,Agriculture#
+654354,1200.0,USD,Agriculture
 654017,250.0,NIS,Food
 654381,375.0,PEN,Personal Use
 654222,250.0,KES,Agriculture
@@ -1258,7 +1258,7 @@ lid,loan_amount,currency,sector#
 654370,750.0,USD,Retail
 654392,400.0,USD,Food
 654004,500.0,PHP,Food
-654129,1000.0,KHR,Agriculture#
+654129,1000.0,KHR,Agriculture
 654072,300.0,NIS,Transportation
 654241,750.0,USD,Food
 654331,300.0,SLL,Retail
@@ -1266,7 +1266,7 @@ lid,loan_amount,currency,sector#
 654309,225.0,LRD,Retail
 1080172,125.0,KES,Retail
 654382,875.0,USD,Food
-654148,275.0,UGX,Agriculture#
+654148,275.0,UGX,Agriculture
 654018,400.0,NIS,Food
 653956,1000.0,USD,Retail
 1080164,125.0,KES,Food
@@ -1277,7 +1277,7 @@ lid,loan_amount,currency,sector#
 653970,650.0,PHP,Clothing
 654338,2300.0,NIO,Retail
 654139,275.0,UGX,Agriculture
-654068,175.0,PHP,Retail#
+654068,175.0,PHP,Retail
 654025,475.0,NIS,Retail
 654226,225.0,SLL,Retail
 654082,250.0,KES,Agriculture
@@ -1292,7 +1292,7 @@ lid,loan_amount,currency,sector#
 654059,600.0,KES,Agriculture
 654194,1000.0,USD,Construction
 654165,1175.0,SLL,Clothing
-653973,1875.0,IDR,Agriculture#
+653973,1875.0,IDR,Agriculture
 654013,350.0,NIS,Construction
 654091,525.0,TJS,Personal Use
 654174,225.0,XOF,Agriculture
@@ -1346,17 +1346,17 @@ lid,loan_amount,currency,sector#
 654459,250.0,PHP,Food
 654799,1050.0,USD,Food
 654690,300.0,YER,Personal Use
-654656,625.0,XOF,Food#
+654656,625.0,XOF,Food
 654689,875.0,NIS,Services
 654678,425.0,TJS,Retail
 654773,375.0,USD,Retail
 654885,500.0,USD,Retail
 654731,950.0,VND,Retail
-654792,450.0,USD,Housing#
+654792,450.0,USD,Housing
 654477,300.0,NIS,Transportation
 1080181,250.0,KES,Clothing
 654849,1500.0,USD,Food
-654763,1200.0,USD,Food#
+654763,1200.0,USD,Food
 654712,400.0,NIS,Retail
 654499,475.0,KES,Retail
 654751,5350.0,XOF,Retail
@@ -1366,7 +1366,7 @@ lid,loan_amount,currency,sector#
 654453,300.0,PHP,Agriculture
 654510,425.0,PHP,Agriculture
 654742,1200.0,USD,Agriculture
-654796,450.0,PEN,Food#
+654796,450.0,PEN,Food
 654705,400.0,NIS,Manufacturing
 654488,250.0,KES,Food
 654615,100.0,LRD,Food
@@ -1378,11 +1378,11 @@ lid,loan_amount,currency,sector#
 654862,1050.0,COP,Food
 654665,225.0,INR,Food
 654788,450.0,USD,Housing
-654786,750.0,HNL,Food#
+654786,750.0,HNL,Food
 654503,250.0,NIS,Retail
 654870,675.0,USD,Food
-654872,375.0,USD,Retail#
-654698,400.0,NIS,Food#
+654872,375.0,USD,Retail
+654698,400.0,NIS,Food
 654591,450.0,NIS,Food
 654723,950.0,VND,Retail
 654662,625.0,XOF,Food
@@ -1405,9 +1405,9 @@ lid,loan_amount,currency,sector#
 654404,1000.0,USD,Retail
 654724,275.0,UGX,Agriculture
 654631,325.0,XAF,Services
-654717,1750.0,GHS,Food#
+654717,1750.0,GHS,Food
 654495,475.0,NIS,Retail
-654829,600.0,USD,Agriculture#
+654829,600.0,USD,Agriculture
 654490,350.0,NIS,Services
 654524,125.0,KES,Services
 654630,1500.0,USD,Personal Use
@@ -1434,9 +1434,9 @@ lid,loan_amount,currency,sector#
 654782,1325.0,GHS,Clothing
 654884,2000.0,NIO,Education
 654871,200.0,USD,Housing
-654661,1225.0,YER,Retail#
+654661,1225.0,YER,Retail
 654566,450.0,NIS,Manufacturing
-654853,1450.0,HNL,Agriculture#
+654853,1450.0,HNL,Agriculture
 654576,400.0,NIS,Retail
 654840,750.0,USD,Services
 654822,225.0,USD,Agriculture
@@ -1452,7 +1452,7 @@ lid,loan_amount,currency,sector#
 654526,600.0,USD,Retail
 654486,225.0,PHP,Retail
 654655,475.0,TRY,Services
-654691,425.0,USD,Agriculture#
+654691,425.0,USD,Agriculture
 654706,400.0,NIS,Services
 654755,1200.0,USD,Agriculture
 654795,450.0,USD,Housing
@@ -1463,17 +1463,17 @@ lid,loan_amount,currency,sector#
 654415,500.0,USD,Retail
 654562,225.0,PHP,Clothing
 654612,250.0,KES,Agriculture
-654494,350.0,KES,Food#
+654494,350.0,KES,Food
 654643,200.0,NIS,Services
 654735,475.0,VND,Retail
 654732,475.0,VND,Services
 654793,425.0,COP,Education
 654448,650.0,PHP,Retail
-654530,1125.0,PHP,Retail#
+654530,1125.0,PHP,Retail
 654711,400.0,NIS,Retail
 654578,400.0,JOD,Education
 654670,250.0,LRD,Clothing
-654533,1125.0,PHP,Retail#
+654533,1125.0,PHP,Retail
 654695,400.0,NIS,Services
 654597,575.0,TRY,Clothing
 654574,1050.0,TJS,Personal Use
@@ -1496,7 +1496,7 @@ lid,loan_amount,currency,sector#
 654430,450.0,PHP,Services
 654516,75.0,KES,Retail
 654881,300.0,USD,Housing
-654520,225.0,TJS,Food#
+654520,225.0,TJS,Food
 654482,250.0,NIS,Transportation
 654626,475.0,KES,Agriculture
 654812,1075.0,PEN,Food
@@ -1511,7 +1511,7 @@ lid,loan_amount,currency,sector#
 654745,425.0,KES,Food
 654820,500.0,USD,Agriculture
 654462,375.0,PHP,Retail
-654536,350.0,KES,Agriculture#
+654536,350.0,KES,Agriculture
 654589,200.0,NIS,Food
 654541,1000.0,USD,Personal Use
 654405,1500.0,USD,Retail
@@ -1526,7 +1526,7 @@ lid,loan_amount,currency,sector#
 654633,700.0,KES,Clothing
 654738,1200.0,USD,Agriculture
 654515,250.0,KES,Retail
-654675,1925.0,AZN,Agriculture#
+654675,1925.0,AZN,Agriculture
 654618,350.0,NIS,Services
 654857,2000.0,USD,Transportation
 654568,1050.0,JOD,Food
@@ -1541,16 +1541,16 @@ lid,loan_amount,currency,sector#
 654720,600.0,KES,Retail
 654794,1500.0,USD,Retail
 654603,150.0,SLL,Food
-654760,600.0,USD,Agriculture#
+654760,600.0,USD,Agriculture
 654696,475.0,NIS,Retail
 654636,200.0,LRD,Food
 654600,200.0,SLL,Clothing
 654425,1200.0,USD,Clothing
-654432,275.0,PHP,Retail#
+654432,275.0,PHP,Retail
 654513,400.0,NIS,Services
 654613,175.0,KES,Construction
 654804,600.0,USD,Food
-654501,1175.0,KES,Agriculture#
+654501,1175.0,KES,Agriculture
 654708,450.0,NIS,Services
 654844,1200.0,USD,Agriculture
 654596,275.0,PHP,Clothing
@@ -1560,7 +1560,7 @@ lid,loan_amount,currency,sector#
 654489,475.0,KES,Agriculture
 654726,725.0,VND,Services
 654878,300.0,USD,Food
-654728,275.0,UGX,Agriculture#
+654728,275.0,UGX,Agriculture
 654674,575.0,NIS,Transportation
 654454,250.0,KES,Retail
 654715,250.0,KES,Clothing
@@ -1587,13 +1587,13 @@ lid,loan_amount,currency,sector#
 654446,450.0,PHP,Agriculture
 654455,450.0,PHP,Food
 654565,1925.0,JOD,Agriculture
-654450,100.0,PHP,Agriculture#
+654450,100.0,PHP,Agriculture
 654679,475.0,NIS,Arts
 654832,1200.0,USD,Agriculture
 654504,250.0,KES,Agriculture
 654789,1075.0,PEN,Services
 654581,325.0,XAF,Retail
-654498,500.0,PHP,Retail#
+654498,500.0,PHP,Retail
 654703,450.0,NIS,Food
 654809,500.0,USD,Retail
 654770,1500.0,USD,Agriculture
@@ -1604,10 +1604,10 @@ lid,loan_amount,currency,sector#
 654402,1000.0,USD,Retail
 654531,1800.0,JOD,Food
 654605,1475.0,JOD,Clothing
-654621,1050.0,KES,Clothing#
+654621,1050.0,KES,Clothing
 654699,400.0,NIS,Retail
 654564,1050.0,TJS,Housing
-654757,1200.0,USD,Agriculture#
+654757,1200.0,USD,Agriculture
 654553,300.0,NIS,Food
 654634,1250.0,XOF,Clothing
 654826,350.0,USD,Retail
@@ -1635,7 +1635,7 @@ lid,loan_amount,currency,sector#
 654805,1400.0,USD,Services
 654841,1200.0,USD,Agriculture
 654557,500.0,USD,Education
-654868,500.0,USD,Retail#
+654868,500.0,USD,Retail
 654535,250.0,NIS,Transportation
 654532,475.0,KES,Construction
 654609,200.0,SLL,Food
@@ -1644,9 +1644,9 @@ lid,loan_amount,currency,sector#
 654407,1000.0,USD,Agriculture
 654508,125.0,KES,Food
 654859,500.0,USD,Agriculture
-654436,450.0,PHP,Transportation#
+654436,450.0,PHP,Transportation
 654611,475.0,NIS,Retail
-654785,450.0,USD,Housing#
+654785,450.0,USD,Housing
 654684,450.0,NIS,Food
 654622,1500.0,USD,Personal Use
 654410,350.0,USD,Food
@@ -1660,7 +1660,7 @@ lid,loan_amount,currency,sector#
 654431,625.0,IDR,Agriculture
 654593,375.0,TRY,Arts
 654765,3650.0,PEN,Agriculture
-654580,125.0,PHP,Retail#
+654580,125.0,PHP,Retail
 654700,400.0,NIS,Retail
 654842,500.0,USD,Agriculture
 654444,675.0,PHP,Agriculture
@@ -1670,32 +1670,32 @@ lid,loan_amount,currency,sector#
 654824,800.0,USD,Food
 654598,600.0,JOD,Food
 654427,400.0,USD,Clothing
-654747,1200.0,USD,Agriculture#
+654747,1200.0,USD,Agriculture
 654649,250.0,NIS,Transportation
 654587,575.0,TRY,Retail
 654548,850.0,TJS,Personal Use
 654592,3025.0,BIF,Food
 654538,300.0,KES,Agriculture
 654409,400.0,USD,Food
-654542,425.0,KES,Agriculture#
+654542,425.0,KES,Agriculture
 654714,475.0,NIS,Services
 654563,500.0,USD,Education
 654447,125.0,PHP,Education
 654783,1500.0,USD,Food
-654654,600.0,KES,Retail#
+654654,600.0,KES,Retail
 654487,250.0,NIS,Arts
 654797,1700.0,BRL,Retail
 654625,250.0,LRD,Food
 654623,350.0,PHP,Retail
 654801,375.0,PEN,Transportation
-654746,700.0,KES,Food#
+654746,700.0,KES,Food
 654716,475.0,NIS,Services
 654687,425.0,TJS,Services
 654780,100.0,UGX,Personal Use
 654460,575.0,PHP,Retail
 654839,800.0,USD,Health
 654588,1500.0,USD,Personal Use
-654659,425.0,XOF,Food#
+654659,425.0,XOF,Food
 654552,250.0,NIS,Services
 654764,400.0,USD,Retail
 654620,200.0,SLL,Retail
@@ -1715,7 +1715,7 @@ lid,loan_amount,currency,sector#
 654756,525.0,XOF,Manufacturing
 654666,200.0,INR,Food
 654847,1200.0,USD,Agriculture
-654774,1000.0,HNL,Food#
+654774,1000.0,HNL,Food
 654604,350.0,NIS,Services
 654787,550.0,USD,Clothing
 654825,775.0,MXN,Retail
@@ -1770,7 +1770,7 @@ lid,loan_amount,currency,sector#
 654572,1050.0,JOD,Education
 654484,1025.0,KES,Transportation
 654776,1025.0,USD,Housing
-654507,250.0,KES,Food#
+654507,250.0,KES,Food
 654709,450.0,NIS,Transportation
 654537,475.0,JOD,Services
 654736,875.0,VND,Manufacturing
@@ -1787,7 +1787,7 @@ lid,loan_amount,currency,sector#
 654512,125.0,KES,Agriculture
 654861,4625.0,USD,Retail
 1080177,125.0,KES,Services
-654823,1300.0,USD,Agriculture#
+654823,1300.0,USD,Agriculture
 654702,400.0,NIS,Transportation
 654727,75.0,KES,Personal Use
 654833,350.0,USD,Agriculture
@@ -1805,7 +1805,7 @@ lid,loan_amount,currency,sector#
 654470,200.0,PHP,Retail
 654837,1200.0,USD,Agriculture
 654856,200.0,USD,Housing
-654762,1650.0,GHS,Retail#
+654762,1650.0,GHS,Retail
 654519,400.0,NIS,Retail
 654798,450.0,PEN,Services
 654891,450.0,COP,Education
@@ -1814,7 +1814,7 @@ lid,loan_amount,currency,sector#
 655057,400.0,PHP,Food
 655124,275.0,LRD,Food
 654896,1500.0,USD,Retail
-655192,2550.0,AZN,Agriculture#
+655192,2550.0,AZN,Agriculture
 654991,475.0,NIS,Construction
 655349,225.0,PEN,Food
 655372,250.0,HNL,Food
@@ -1822,7 +1822,7 @@ lid,loan_amount,currency,sector#
 655096,825.0,KHR,Agriculture
 655323,250.0,HNL,Agriculture
 654906,1500.0,USD,Agriculture
-655240,475.0,SLL,Food#
+655240,475.0,SLL,Food
 655214,1350.0,NIS,Services
 655186,250.0,INR,Agriculture
 655235,1000.0,USD,Services
@@ -1902,14 +1902,14 @@ lid,loan_amount,currency,sector#
 654932,950.0,VND,Retail
 655283,225.0,SLL,Retail
 655179,225.0,SLL,Food
-655036,925.0,KES,Transportation#
+655036,925.0,KES,Transportation
 655200,200.0,NIS,Transportation
 655363,575.0,PHP,Food
 655262,325.0,XAF,Retail
 655037,5000.0,USD,Housing
 655308,200.0,SLL,Retail
-655358,425.0,PHP,Food#
-655199,450.0,NIS,Food#
+655358,425.0,PHP,Food
+655199,450.0,NIS,Food
 655215,400.0,NIS,Services
 655302,850.0,YER,Personal Use
 654899,1450.0,PEN,Retail
@@ -1918,9 +1918,9 @@ lid,loan_amount,currency,sector#
 654954,1200.0,USD,Agriculture
 655243,3400.0,USD,Transportation
 654995,350.0,KES,Food
-654919,125.0,PHP,Arts#
+654919,125.0,PHP,Arts
 654990,575.0,NIS,Transportation
-655352,900.0,HNL,Food#
+655352,900.0,HNL,Food
 655207,400.0,NIS,Manufacturing
 654920,1450.0,PEN,Food
 655105,425.0,XOF,Food
@@ -1946,7 +1946,7 @@ lid,loan_amount,currency,sector#
 655281,8000.0,USD,Retail
 654934,1000.0,USD,Retail
 655075,525.0,XAF,Retail
-655342,400.0,USD,Housing#
+655342,400.0,USD,Housing
 655201,475.0,NIS,Food
 655320,1425.0,NIO,Arts
 655130,225.0,XAF,Retail
@@ -1988,7 +1988,7 @@ lid,loan_amount,currency,sector#
 655104,225.0,PHP,Retail
 655099,1575.0,TJS,Personal Use
 655238,725.0,UGX,Food
-655272,225.0,SLL,Food#
+655272,225.0,SLL,Food
 655174,450.0,NIS,Services
 655270,550.0,PEN,Food
 655194,2550.0,AZN,Food
@@ -2011,13 +2011,13 @@ lid,loan_amount,currency,sector#
 655136,225.0,PHP,Food
 655031,475.0,KES,Food
 654988,125.0,KES,Agriculture
-654986,125.0,KES,Food#
+654986,125.0,KES,Food
 654971,625.0,NIS,Services
 655032,675.0,IDR,Retail
 654912,900.0,PEN,Services
 655133,250.0,LRD,Food
 655079,575.0,GEL,Transportation
-655386,200.0,USD,Food#
+655386,200.0,USD,Food
 654983,200.0,NIS,Transportation
 655058,475.0,VND,Retail
 1080188,125.0,KES,Arts
@@ -2101,7 +2101,7 @@ lid,loan_amount,currency,sector#
 655306,175.0,HNL,Manufacturing
 655331,750.0,HNL,Food
 654917,1125.0,PHP,Health
-654915,225.0,PHP,Agriculture#
+654915,225.0,PHP,Agriculture
 655029,400.0,NIS,Services
 655038,300.0,PHP,Retail
 655059,450.0,PHP,Transportation
@@ -2109,7 +2109,7 @@ lid,loan_amount,currency,sector#
 655325,200.0,NIO,Food
 654930,375.0,PEN,Clothing
 655380,1500.0,USD,Services
-654969,175.0,PHP,Retail#
+654969,175.0,PHP,Retail
 655002,200.0,NIS,Retail
 655367,800.0,NIO,Retail
 655177,925.0,KES,Services
@@ -2122,7 +2122,7 @@ lid,loan_amount,currency,sector#
 655334,1375.0,PEN,Food
 655040,575.0,PHP,Arts
 655081,275.0,PHP,Agriculture
-655005,1025.0,YER,Retail#
+655005,1025.0,YER,Retail
 654984,475.0,NIS,Transportation
 654961,950.0,VND,Retail
 655392,500.0,USD,Transportation
@@ -2144,10 +2144,10 @@ lid,loan_amount,currency,sector#
 655389,1300.0,USD,Agriculture
 655017,1000.0,YER,Clothing
 655053,725.0,VND,Food
-655220,2350.0,GHS,Clothing#
+655220,2350.0,GHS,Clothing
 655211,400.0,NIS,Transportation
 655219,600.0,SLL,Food
-655354,425.0,PHP,Retail#
+655354,425.0,PHP,Retail
 654996,250.0,NIS,Manufacturing
 655189,250.0,SLL,Retail
 654921,150.0,PHP,Food
@@ -2206,12 +2206,12 @@ lid,loan_amount,currency,sector#
 655138,300.0,LRD,Food
 655340,725.0,PEN,Food
 654913,1000.0,USD,Clothing
-655134,1050.0,KHR,Food#
+655134,1050.0,KHR,Food
 655221,400.0,NIS,Food
 655091,350.0,SLL,Services
 655324,400.0,NIO,Food
 655361,200.0,HNL,Food
-654909,1000.0,USD,Retail#
+654909,1000.0,USD,Retail
 655206,400.0,NIS,Food
 655062,425.0,PHP,Agriculture
 655216,250.0,INR,Education
@@ -2235,14 +2235,14 @@ lid,loan_amount,currency,sector#
 654947,175.0,PHP,Arts
 655047,325.0,PHP,Agriculture
 655314,3200.0,SLL,Housing
-655121,300.0,KES,Services#
+655121,300.0,KES,Services
 655198,450.0,NIS,Services
 655019,825.0,IDR,Retail
 1080193,250.0,KES,Food
 655026,175.0,PHP,Retail
 655044,1000.0,USD,Housing
 655163,350.0,SLL,Food
-655298,250.0,SLL,Food#
+655298,250.0,SLL,Food
 655197,400.0,NIS,Retail
 655265,1000.0,PEN,Food
 655176,525.0,UGX,Transportation
@@ -2268,11 +2268,11 @@ lid,loan_amount,currency,sector#
 655229,400.0,UGX,Construction
 654941,575.0,PHP,Retail
 655107,125.0,PHP,Agriculture
-654937,350.0,PHP,Retail#
+654937,350.0,PHP,Retail
 655209,400.0,NIS,Food
 655188,425.0,XAF,Food
 655234,850.0,KHR,Agriculture
-655119,300.0,KES,Clothing#
+655119,300.0,KES,Clothing
 655003,725.0,NIS,Clothing
 655255,1300.0,USD,Agriculture
 655034,125.0,PHP,Services
@@ -2292,7 +2292,7 @@ lid,loan_amount,currency,sector#
 655332,400.0,USD,Housing
 655046,5000.0,USD,Housing
 655055,800.0,TJS,Personal Use
-655390,500.0,USD,Transportation#
+655390,500.0,USD,Transportation
 655213,475.0,NIS,Transportation
 655346,725.0,PEN,Food
 655182,225.0,SLL,Retail
@@ -2306,7 +2306,7 @@ lid,loan_amount,currency,sector#
 655016,225.0,PHP,Agriculture
 655153,125.0,LRD,Retail
 655337,400.0,HNL,Clothing
-655098,325.0,PHP,Retail#
+655098,325.0,PHP,Retail
 655203,450.0,NIS,Retail
 655341,1000.0,HNL,Food
 655387,950.0,NIO,Services
@@ -2340,11 +2340,11 @@ lid,loan_amount,currency,sector#
 655672,175.0,LRD,Food
 655833,2550.0,PEN,Food
 1080212,125.0,KES,Food
-655739,225.0,XOF,Agriculture#
+655739,225.0,XOF,Agriculture
 655585,775.0,NIS,Transportation
 655765,2425.0,ALL,Agriculture
 655917,850.0,USD,Retail
-655441,325.0,PHP,Retail#
+655441,325.0,PHP,Retail
 655712,475.0,NIS,Food
 655454,150.0,PHP,Food
 655651,275.0,UGX,Agriculture
@@ -2353,7 +2353,7 @@ lid,loan_amount,currency,sector#
 655820,125.0,LRD,Food
 655415,350.0,PHP,Retail
 655503,450.0,PHP,Retail
-655782,1050.0,XOF,Food#
+655782,1050.0,XOF,Food
 655720,200.0,NIS,Food
 655826,625.0,XAF,Food
 655703,750.0,AMD,Retail
@@ -2389,7 +2389,7 @@ lid,loan_amount,currency,sector#
 655737,725.0,KES,Agriculture
 655924,300.0,USD,Clothing
 655813,350.0,SLL,Retail
-655420,350.0,PHP,Services#
+655420,350.0,PHP,Services
 655719,475.0,NIS,Transportation
 655490,350.0,PHP,Retail
 655494,50.0,IDR,Services
@@ -2397,7 +2397,7 @@ lid,loan_amount,currency,sector#
 655697,1500.0,AMD,Transportation
 655645,275.0,UGX,Agriculture
 655907,1425.0,PEN,Retail
-655641,275.0,UGX,Agriculture#
+655641,275.0,UGX,Agriculture
 655709,400.0,NIS,Food
 655742,225.0,INR,Manufacturing
 655911,1050.0,COP,Retail
@@ -2446,7 +2446,7 @@ lid,loan_amount,currency,sector#
 655546,125.0,PHP,Services
 655809,150.0,SLL,Food
 655544,150.0,PHP,Retail
-655776,1675.0,BIF,Retail#
+655776,1675.0,BIF,Retail
 655718,400.0,NIS,Services
 655515,750.0,VND,Education
 655460,150.0,PHP,Retail
@@ -2455,14 +2455,14 @@ lid,loan_amount,currency,sector#
 655621,225.0,PHP,Food
 655516,625.0,PHP,Agriculture
 655618,1475.0,JOD,Education
-655936,1075.0,USD,Food#
+655936,1075.0,USD,Food
 655715,400.0,NIS,Retail
 655836,325.0,XAF,Agriculture
 655436,1000.0,USD,Arts
 655590,1500.0,AMD,Transportation
 655684,825.0,VND,Retail
 655694,325.0,KGS,Agriculture
-655569,225.0,PHP,Retail#
+655569,225.0,PHP,Retail
 655706,400.0,NIS,Transportation
 655781,125.0,LRD,Food
 655414,350.0,PHP,Food
@@ -2499,7 +2499,7 @@ lid,loan_amount,currency,sector#
 655655,950.0,VND,Services
 655723,100.0,INR,Agriculture
 655506,675.0,PHP,Agriculture
-655525,100.0,PHP,Agriculture#
+655525,100.0,PHP,Agriculture
 655713,450.0,NIS,Transportation
 655790,450.0,XOF,Retail
 655925,300.0,USD,Housing
@@ -2567,7 +2567,7 @@ lid,loan_amount,currency,sector#
 655576,500.0,KES,Agriculture
 655552,475.0,JOD,Education
 655610,2275.0,INR,Arts
-655793,325.0,XOF,Agriculture#
+655793,325.0,XOF,Agriculture
 655688,200.0,NIS,Services
 655571,750.0,AMD,Food
 655808,1050.0,XOF,Food
@@ -2593,12 +2593,12 @@ lid,loan_amount,currency,sector#
 655835,125.0,LRD,Clothing
 655758,275.0,XOF,Agriculture
 655881,675.0,PHP,Retail
-655926,2075.0,COP,Agriculture#
+655926,2075.0,COP,Agriculture
 655669,200.0,NIS,Retail
 655642,1500.0,AMD,Clothing
 655691,700.0,KES,Services
 655439,250.0,PHP,Retail
-655933,375.0,HNL,Retail#
+655933,375.0,HNL,Retail
 655695,250.0,NIS,Transportation
 655419,1125.0,PHP,Transportation
 655852,1000.0,USD,Agriculture
@@ -2642,12 +2642,12 @@ lid,loan_amount,currency,sector#
 655511,500.0,VND,Education
 655890,225.0,PHP,Food
 655560,1125.0,AMD,Construction
-655686,875.0,GEL,Food#
+655686,875.0,GEL,Food
 655716,475.0,NIS,Retail
 655453,250.0,PHP,Manufacturing
 655435,150.0,PHP,Agriculture
 655778,475.0,KES,Agriculture
-655922,975.0,USD,Food#
+655922,975.0,USD,Food
 655704,450.0,NIS,Wholesale
 655566,1000.0,AMD,Food
 655766,425.0,XOF,Agriculture
@@ -2689,14 +2689,14 @@ lid,loan_amount,currency,sector#
 655935,1325.0,PEN,Food
 655805,1000.0,USD,Clothing
 655783,1000.0,USD,Education
-655601,600.0,JOD,Education#
+655601,600.0,JOD,Education
 655532,350.0,NIS,Food
 655481,675.0,PHP,Retail
 655605,1500.0,AMD,Clothing
 655594,625.0,XOF,Retail
 655617,1200.0,JOD,Education
 655711,2600.0,GEL,Agriculture
-655819,125.0,LRD,Food#
+655819,125.0,LRD,Food
 655685,200.0,NIS,Food
 655772,125.0,LRD,Food
 655609,2000.0,USD,Transportation
@@ -2708,7 +2708,7 @@ lid,loan_amount,currency,sector#
 655620,1050.0,XOF,Retail
 655401,550.0,PEN,Clothing
 655463,450.0,PHP,Retail
-655650,950.0,VND,Retail#
+655650,950.0,VND,Retail
 655725,450.0,NIS,Food
 655611,3000.0,USD,Transportation
 655847,500.0,USD,Housing
@@ -2760,11 +2760,11 @@ lid,loan_amount,currency,sector#
 655443,675.0,PHP,Food
 655851,950.0,USD,Housing
 655438,125.0,PHP,Retail
-655888,500.0,USD,Housing#
+655888,500.0,USD,Housing
 655528,200.0,NIS,Transportation
 655403,350.0,PHP,Agriculture
 655755,250.0,XOF,Retail
-655600,1100.0,XOF,Health#
+655600,1100.0,XOF,Health
 655539,400.0,NIS,Manufacturing
 655745,325.0,XOF,Food
 655574,150.0,PHP,Retail
@@ -2777,7 +2777,7 @@ lid,loan_amount,currency,sector#
 655432,575.0,PHP,Retail
 655649,600.0,UGX,Food
 655774,125.0,LRD,Retail
-655824,150.0,SLL,Food#
+655824,150.0,SLL,Food
 655722,400.0,NIS,Services
 655526,150.0,PHP,Retail
 655653,450.0,USD,Food
@@ -2850,7 +2850,7 @@ lid,loan_amount,currency,sector#
 655681,725.0,VND,Retail
 655407,1125.0,PHP,Retail
 655501,1050.0,TJS,Food
-655597,350.0,PHP,Retail#
+655597,350.0,PHP,Retail
 655517,300.0,NIS,Manufacturing
 655488,1125.0,PHP,Retail
 655905,800.0,COP,Food
@@ -2873,8 +2873,8 @@ lid,loan_amount,currency,sector#
 655682,950.0,VND,Retail
 1080206,125.0,KES,Food
 655811,475.0,NIO,Services
-655451,225.0,PHP,Agriculture#
-655700,475.0,NIS,Personal Use#
+655451,225.0,PHP,Agriculture
+655700,475.0,NIS,Personal Use
 655615,950.0,NIS,Transportation
 655461,100.0,PHP,Retail
 655670,2500.0,USD,Food
@@ -2890,8 +2890,8 @@ lid,loan_amount,currency,sector#
 656128,175.0,LRD,Food
 656077,650.0,TJS,Clothing
 655959,725.0,PEN,Housing
-656177,475.0,NIO,Retail#
-656129,450.0,NIS,Clothing#
+656177,475.0,NIO,Retail
+656129,450.0,NIS,Clothing
 656120,400.0,NIS,Food
 656035,850.0,TJS,Clothing
 656068,750.0,KES,Agriculture
@@ -2915,14 +2915,14 @@ lid,loan_amount,currency,sector#
 656227,400.0,USD,Food
 655949,375.0,PEN,Retail
 1080219,250.0,KES,Clothing
-656073,625.0,XAF,Food#
+656073,625.0,XAF,Food
 656125,400.0,NIS,Transportation
-656243,800.0,USD,Food#
+656243,800.0,USD,Food
 655977,625.0,NIS,Services
 656082,900.0,KHR,Food
 656223,700.0,USD,Housing
 656268,4500.0,GTQ,Agriculture
-656242,450.0,COP,Education#
+656242,450.0,COP,Education
 656137,450.0,NIS,Arts
 656221,1250.0,PEN,Food
 656159,2925.0,UAH,Housing
@@ -2949,13 +2949,13 @@ lid,loan_amount,currency,sector#
 655973,1300.0,COP,Retail
 656162,500.0,UGX,Food
 656034,1175.0,KES,Housing
-656006,400.0,KHR,Construction#
+656006,400.0,KHR,Construction
 656135,400.0,NIS,Food
 656115,250.0,KES,Services
 656273,1125.0,PHP,Retail
 656078,425.0,SLL,Food
 656079,150.0,PHP,Retail
-656086,1725.0,GEL,Agriculture#
+656086,1725.0,GEL,Agriculture
 656133,475.0,NIS,Retail
 656261,1250.0,PEN,Clothing
 656039,400.0,PHP,Agriculture
@@ -2981,7 +2981,7 @@ lid,loan_amount,currency,sector#
 655988,2300.0,USD,Personal Use
 656256,525.0,COP,Services
 1080222,125.0,KES,Services
-656186,1500.0,USD,Retail#
+656186,1500.0,USD,Retail
 656119,400.0,NIS,Food
 656095,775.0,KHR,Agriculture
 656114,600.0,KES,Transportation
@@ -2989,12 +2989,12 @@ lid,loan_amount,currency,sector#
 656271,675.0,PYG,Education
 656060,800.0,PHP,Food
 655943,550.0,USD,Food
-656045,650.0,TJS,Personal Use#
+656045,650.0,TJS,Personal Use
 656145,400.0,NIS,Agriculture
 655941,1600.0,USD,Retail
 656062,225.0,PHP,Food
 656040,225.0,PHP,Retail
-656139,2950.0,USD,Retail#
+656139,2950.0,USD,Retail
 656001,250.0,NIS,Transportation
 655942,1275.0,USD,Agriculture
 656051,425.0,PHP,Agriculture
@@ -3005,7 +3005,7 @@ lid,loan_amount,currency,sector#
 655998,625.0,PHP,Food
 656251,500.0,USD,Housing
 656235,1825.0,COP,Agriculture
-656205,400.0,MXN,Entertainment#
+656205,400.0,MXN,Entertainment
 656140,400.0,NIS,Agriculture
 656132,225.0,INR,Construction
 655989,475.0,KES,Clothing
@@ -3037,7 +3037,7 @@ lid,loan_amount,currency,sector#
 655953,325.0,PHP,Education
 656265,275.0,NIO,Food
 656003,425.0,KES,Food
-655985,350.0,PHP,Agriculture#
+655985,350.0,PHP,Agriculture
 656011,525.0,NIS,Arts
 656188,300.0,USD,Agriculture
 656105,275.0,PHP,Agriculture
@@ -3066,7 +3066,7 @@ lid,loan_amount,currency,sector#
 656021,225.0,PHP,Retail
 1080225,5000.0,USD,Services
 656043,425.0,XAF,Food
-655964,125.0,PHP,Food#
+655964,125.0,PHP,Food
 656112,400.0,NIS,Retail
 655993,1200.0,UGX,Agriculture
 1080220,125.0,KES,Services
@@ -3098,7 +3098,7 @@ lid,loan_amount,currency,sector#
 656030,225.0,PHP,Agriculture
 656109,2550.0,KGS,Agriculture
 655992,850.0,TJS,Agriculture
-655971,225.0,PHP,Agriculture#
+655971,225.0,PHP,Agriculture
 656117,400.0,NIS,Agriculture
 656217,500.0,USD,Housing
 656092,575.0,PHP,Food
@@ -3113,13 +3113,13 @@ lid,loan_amount,currency,sector#
 656050,600.0,KES,Food
 656195,500.0,USD,Retail
 656118,2300.0,GEL,Food
-656022,1800.0,USD,Agriculture#
+656022,1800.0,USD,Agriculture
 656146,475.0,NIS,Transportation
 1080223,125.0,KES,Agriculture
 656206,500.0,USD,Housing
 656222,700.0,USD,Housing
 655952,1450.0,PEN,Construction
-656100,275.0,PHP,Agriculture#
+656100,275.0,PHP,Agriculture
 656143,400.0,NIS,Food
 655969,300.0,PHP,Education
 656148,2925.0,UAH,Housing
@@ -3170,7 +3170,7 @@ lid,loan_amount,currency,sector#
 656241,1025.0,BOB,Agriculture
 656055,425.0,XAF,Food
 656170,1000.0,USD,Agriculture
-655996,1050.0,TJS,Personal Use#
+655996,1050.0,TJS,Personal Use
 656126,400.0,NIS,Services
 656010,750.0,KHR,Food
 656041,225.0,PHP,Retail
@@ -3207,14 +3207,14 @@ lid,loan_amount,currency,sector#
 656248,500.0,USD,Housing
 656258,450.0,COP,Education
 655997,475.0,KES,Services
-656173,475.0,NIO,Food#
+656173,475.0,NIO,Food
 655979,250.0,NIS,Manufacturing
 656250,1000.0,USD,Construction
 656007,3000.0,USD,Clothing
 656027,225.0,PHP,Agriculture
 656046,2100.0,USD,Food
 656053,2025.0,GEL,Agriculture
-656189,525.0,NIO,Clothing#
+656189,525.0,NIO,Clothing
 656113,400.0,NIS,Retail
 655976,650.0,TJS,Services
 656106,450.0,PHP,Agriculture
@@ -3226,7 +3226,7 @@ lid,loan_amount,currency,sector#
 655994,1000.0,USD,Retail
 656165,1200.0,USD,Food
 656163,200.0,LRD,Clothing
-1080227,10000.0,USD,Agriculture#
+1080227,10000.0,USD,Agriculture
 656124,400.0,NIS,Food
 656245,1625.0,PEN,Education
 656111,1425.0,KGS,Agriculture
@@ -3419,7 +3419,7 @@ lid,loan_amount,currency,sector#
 656756,2300.0,BIF,Food
 656589,1500.0,USD,Housing
 656502,1275.0,TJS,Agriculture
-656452,525.0,COP,Clothing#
+656452,525.0,COP,Clothing
 656656,400.0,NIS,Arts
 656705,250.0,KES,Clothing
 656646,400.0,UGX,Agriculture
@@ -3451,7 +3451,7 @@ lid,loan_amount,currency,sector#
 656737,375.0,PEN,Agriculture
 656710,275.0,LRD,Food
 656768,400.0,USD,Food
-1080235,125.0,KES,Clothing#
+1080235,125.0,KES,Clothing
 656663,475.0,NIS,Clothing
 656520,2750.0,BIF,Food
 656825,400.0,NIO,Food
@@ -3473,7 +3473,7 @@ lid,loan_amount,currency,sector#
 656611,125.0,KES,Retail
 656807,500.0,USD,Construction
 656481,525.0,COP,Food
-656641,250.0,INR,Education#
+656641,250.0,INR,Education
 656536,950.0,NIS,Retail
 656538,2500.0,USD,Agriculture
 1080234,125.0,KES,Food
@@ -3674,7 +3674,7 @@ lid,loan_amount,currency,sector#
 656852,1075.0,PEN,Agriculture
 656509,1050.0,USD,Agriculture
 656569,250.0,KES,Retail
-656780,5875.0,XOF,Food#
+656780,5875.0,XOF,Food
 656517,475.0,NIS,Retail
 656477,100.0,PHP,Retail
 656633,225.0,TJS,Agriculture
@@ -3692,7 +3692,7 @@ lid,loan_amount,currency,sector#
 656697,1000.0,USD,Agriculture
 656492,1350.0,PHP,Retail
 656832,250.0,USD,Housing
-656624,600.0,UGX,Retail#
+656624,600.0,UGX,Retail
 656497,200.0,NIS,Services
 656844,4000.0,UGX,Retail
 656577,650.0,XOF,Transportation
@@ -3753,7 +3753,7 @@ lid,loan_amount,currency,sector#
 656834,300.0,USD,Retail
 656808,450.0,WST,Food
 656657,250.0,INR,Food
-656798,500.0,HNL,Agriculture#
+656798,500.0,HNL,Agriculture
 656658,475.0,NIS,Transportation
 656560,2100.0,TJS,Services
 656685,3575.0,BIF,Food
@@ -3784,7 +3784,7 @@ lid,loan_amount,currency,sector#
 656739,1025.0,BOB,Food
 656471,125.0,PHP,Manufacturing
 656761,725.0,PEN,Services
-656827,4850.0,HTG,Retail#
+656827,4850.0,HTG,Retail
 656522,475.0,NIS,Clothing
 656488,2150.0,USD,Education
 656545,250.0,KES,Agriculture
@@ -3804,7 +3804,7 @@ lid,loan_amount,currency,sector#
 656850,650.0,WST,Agriculture
 656698,700.0,KES,Agriculture
 656479,175.0,PHP,Retail
-656753,4025.0,XOF,Food#
+656753,4025.0,XOF,Food
 656662,400.0,NIS,Retail
 657047,1000.0,USD,Agriculture
 657145,725.0,VND,Retail
@@ -4246,9 +4246,9 @@ lid,loan_amount,currency,sector#
 657186,625.0,VND,Retail
 657125,125.0,UGX,Clothing
 656932,1675.0,AZN,Agriculture
-657587,650.0,HNL,Agriculture#
+657587,650.0,HNL,Agriculture
 657510,400.0,NIS,Agriculture
-657399,1050.0,KES,Transportation#
+657399,1050.0,KES,Transportation
 657507,400.0,NIS,Retail
 657615,300.0,HNL,Services
 657696,400.0,USD,Housing
@@ -4260,7 +4260,7 @@ lid,loan_amount,currency,sector#
 657402,250.0,KES,Agriculture
 657657,800.0,USD,Agriculture
 657379,1000.0,USD,Food
-657651,1000.0,HNL,Agriculture#
+657651,1000.0,HNL,Agriculture
 657484,400.0,NIS,Arts
 657396,900.0,MNT,Clothing
 657323,1750.0,TZS,Services
@@ -4302,14 +4302,14 @@ lid,loan_amount,currency,sector#
 657601,150.0,LRD,Retail
 657372,250.0,KES,Agriculture
 657709,400.0,USD,Housing
-657474,1500.0,USD,Services#
+657474,1500.0,USD,Services
 657446,250.0,NIS,Food
 657376,1700.0,USD,Food
 657708,750.0,HNL,Agriculture
 657597,1250.0,USD,Agriculture
 657654,2100.0,MXN,Agriculture
 657345,575.0,PHP,Services
-657563,450.0,RWF,Food#
+657563,450.0,RWF,Food
 657490,400.0,NIS,Agriculture
 657467,3000.0,USD,Agriculture
 657645,550.0,HNL,Retail
@@ -4317,7 +4317,7 @@ lid,loan_amount,currency,sector#
 657288,1000.0,USD,Agriculture
 657570,250.0,USD,Housing
 657676,600.0,USD,Agriculture
-657600,3050.0,PYG,Clothing#
+657600,3050.0,PYG,Clothing
 657485,525.0,NIS,Arts
 657469,225.0,INR,Education
 657735,1175.0,USD,Retail
@@ -4337,7 +4337,7 @@ lid,loan_amount,currency,sector#
 657699,500.0,USD,Manufacturing
 657611,250.0,KES,Personal Use
 657702,400.0,USD,Housing
-657644,1275.0,PEN,Agriculture#
+657644,1275.0,PEN,Agriculture
 657500,400.0,NIS,Retail
 657734,725.0,PEN,Health
 1080267,125.0,KES,Clothing
@@ -4353,12 +4353,12 @@ lid,loan_amount,currency,sector#
 657529,475.0,YER,Retail
 657369,1025.0,KGS,Agriculture
 657728,975.0,USD,Food
-657304,2900.0,PYG,Clothing#
+657304,2900.0,PYG,Clothing
 657339,1900.0,NIS,Retail
 657295,600.0,NIO,Food
 657583,1000.0,USD,Services
 657610,200.0,LRD,Retail
-657427,850.0,TJS,Personal Use#
+657427,850.0,TJS,Personal Use
 657503,400.0,NIS,Agriculture
 657534,3500.0,USD,Retail
 657341,425.0,PHP,Retail
@@ -4366,7 +4366,7 @@ lid,loan_amount,currency,sector#
 657712,600.0,NIO,Food
 657398,1800.0,MNT,Transportation
 657425,300.0,PHP,Agriculture
-657451,1575.0,KHR,Agriculture#
+657451,1575.0,KHR,Agriculture
 657392,475.0,NIS,Manufacturing
 657321,875.0,KHR,Agriculture
 657640,550.0,PEN,Agriculture
@@ -4376,12 +4376,12 @@ lid,loan_amount,currency,sector#
 657650,1000.0,USD,Construction
 657462,1200.0,USD,Services
 657436,2400.0,UGX,Education
-657694,1550.0,COP,Retail#
+657694,1550.0,COP,Retail
 657496,400.0,NIS,Retail
 657594,1550.0,COP,Retail
-657317,475.0,USD,Education#
+657317,475.0,USD,Education
 657466,200.0,NIS,Retail
-657520,1500.0,USD,Clothing#
+657520,1500.0,USD,Clothing
 657487,400.0,NIS,Food
 657422,1800.0,INR,Agriculture
 657400,900.0,YER,Retail
@@ -4425,7 +4425,7 @@ lid,loan_amount,currency,sector#
 1080259,250.0,KES,Food
 657479,250.0,INR,Education
 657593,175.0,LRD,Food
-657397,600.0,USD,Education#
+657397,600.0,USD,Education
 657489,400.0,NIS,Transportation
 657700,800.0,USD,Agriculture
 657453,950.0,XOF,Retail
@@ -4439,7 +4439,7 @@ lid,loan_amount,currency,sector#
 657432,1200.0,UGX,Agriculture
 1080257,250.0,KES,Food
 657718,10000.0,USD,Services
-657658,775.0,COP,Services#
+657658,775.0,COP,Services
 657346,475.0,NIS,Transportation
 657556,3750.0,NIO,Food
 657434,625.0,KHR,Agriculture
@@ -4453,7 +4453,7 @@ lid,loan_amount,currency,sector#
 657646,1000.0,USD,Housing
 657589,700.0,USD,Agriculture
 657673,300.0,USD,Housing
-657574,1000.0,USD,Clothing#
+657574,1000.0,USD,Clothing
 657495,400.0,NIS,Food
 657472,250.0,INR,Education
 657440,150.0,PHP,Agriculture
@@ -4465,7 +4465,7 @@ lid,loan_amount,currency,sector#
 657438,4000.0,USD,Housing
 657415,950.0,YER,Housing
 1080255,125.0,KES,Construction
-657421,350.0,KES,Personal Use#
+657421,350.0,KES,Personal Use
 657508,400.0,NIS,Agriculture
 657513,1250.0,XOF,Arts
 657532,200.0,LRD,Food
@@ -4478,7 +4478,7 @@ lid,loan_amount,currency,sector#
 657461,125.0,LRD,Food
 657552,250.0,LRD,Food
 657636,575.0,PEN,Agriculture
-657343,200.0,PHP,Services#
+657343,200.0,PHP,Services
 657375,475.0,NIS,Transportation
 657331,125.0,PHP,Food
 657313,625.0,KGS,Agriculture
@@ -4490,7 +4490,7 @@ lid,loan_amount,currency,sector#
 657693,550.0,USD,Food
 657649,200.0,USD,Housing
 657324,325.0,TJS,Construction
-657701,300.0,PEN,Services#
+657701,300.0,PEN,Services
 657366,350.0,NIS,Retail
 657725,1175.0,PYG,Food
 657545,500.0,USD,Housing
@@ -4549,8 +4549,8 @@ lid,loan_amount,currency,sector#
 657661,175.0,UGX,Personal Use
 657307,125.0,PHP,Retail
 657635,700.0,USD,Agriculture
-657698,1500.0,BOB,Agriculture#
-657363,300.0,NIS,Food#
+657698,1500.0,BOB,Agriculture
+657363,300.0,NIS,Food
 657494,400.0,NIS,Arts
 657450,1200.0,UGX,Agriculture
 657298,1000.0,USD,Clothing
@@ -4564,7 +4564,7 @@ lid,loan_amount,currency,sector#
 657337,350.0,PHP,Manufacturing
 657569,1200.0,USD,Agriculture
 657677,700.0,HNL,Food
-657367,3425.0,INR,Food#
+657367,3425.0,INR,Food
 657509,400.0,NIS,Agriculture
 657413,1050.0,TJS,Agriculture
 657609,450.0,COP,Education
@@ -4584,7 +4584,7 @@ lid,loan_amount,currency,sector#
 657616,750.0,HNL,Construction
 657706,450.0,USD,Agriculture
 657716,400.0,USD,Housing
-657665,1100.0,USD,Retail#
+657665,1100.0,USD,Retail
 657501,475.0,NIS,Food
 1080266,375.0,KES,Clothing
 657624,1150.0,HNL,Agriculture
@@ -4599,12 +4599,12 @@ lid,loan_amount,currency,sector#
 657355,350.0,KES,Agriculture
 657351,2675.0,USD,Clothing
 657680,1250.0,HNL,Agriculture
-657350,1000.0,USD,Food#
+657350,1000.0,USD,Food
 657505,475.0,NIS,Retail
 657395,525.0,TJS,Personal Use
 657303,400.0,NIO,Services
 657571,450.0,RWF,Food
-657631,1200.0,PYG,Construction#
+657631,1200.0,PYG,Construction
 657506,425.0,NIS,Agriculture
 657674,700.0,USD,Construction
 1080263,125.0,KES,Retail
@@ -4630,7 +4630,7 @@ lid,loan_amount,currency,sector#
 657548,1000.0,CRC,Agriculture
 657365,1125.0,PHP,Retail
 657419,350.0,PHP,Agriculture
-657622,950.0,KES,Food#
+657622,950.0,KES,Food
 657504,400.0,NIS,Agriculture
 657578,225.0,LRD,Food
 657378,1500.0,USD,Food
@@ -4653,11 +4653,11 @@ lid,loan_amount,currency,sector#
 657382,1500.0,USD,Food
 657456,1475.0,XOF,Food
 657573,1250.0,XOF,Food
-657515,1250.0,XOF,Food#
+657515,1250.0,XOF,Food
 657497,400.0,NIS,Clothing
 657294,1300.0,USD,Retail
 657666,300.0,USD,Housing
-657478,3000.0,USD,Retail#
+657478,3000.0,USD,Retail
 657460,300.0,NIS,Transportation
 657416,350.0,PHP,Agriculture
 657620,600.0,USD,Retail
@@ -4665,7 +4665,7 @@ lid,loan_amount,currency,sector#
 657727,1275.0,USD,Food
 1080269,5000.0,USD,Construction
 657473,125.0,LRD,Food
-657327,2325.0,TJS,Agriculture#
+657327,2325.0,TJS,Agriculture
 657492,425.0,NIS,Services
 657714,500.0,HNL,Agriculture
 657340,675.0,PHP,Retail
@@ -4691,7 +4691,7 @@ lid,loan_amount,currency,sector#
 1080265,125.0,KES,Services
 657697,650.0,NIO,Housing
 657715,400.0,USD,Agriculture
-657418,5000.0,USD,Housing#
+657418,5000.0,USD,Housing
 657502,350.0,NIS,Services
 657364,1050.0,TJS,Services
 657370,1175.0,YER,Construction
@@ -4720,7 +4720,7 @@ lid,loan_amount,currency,sector#
 657963,625.0,XOF,Food
 658032,200.0,SLL,Retail
 657802,350.0,PHP,Retail
-658263,600.0,USD,Agriculture#
+658263,600.0,USD,Agriculture
 658023,350.0,NIS,Transportation
 658192,325.0,HNL,Agriculture
 658090,1325.0,PEN,Retail
@@ -4765,7 +4765,7 @@ lid,loan_amount,currency,sector#
 658058,450.0,KES,Personal Use
 657777,1000.0,USD,Housing
 1080270,2500.0,USD,Retail
-657890,175.0,KES,Services#
+657890,175.0,KES,Services
 657864,950.0,NIS,Agriculture
 658186,550.0,PEN,Food
 658046,1000.0,USD,Agriculture
@@ -4779,8 +4779,8 @@ lid,loan_amount,currency,sector#
 658280,1000.0,USD,Agriculture
 657929,375.0,UGX,Retail
 1080276,5000.0,USD,Food
-657762,1500.0,VND,Food#
-658014,400.0,NIS,Retail#
+657762,1500.0,VND,Food
+658014,400.0,NIS,Retail
 657832,1900.0,NIS,Wholesale
 657828,1300.0,USD,Agriculture
 657839,725.0,VND,Manufacturing
@@ -4799,14 +4799,14 @@ lid,loan_amount,currency,sector#
 657891,525.0,PHP,Services
 658243,600.0,USD,Housing
 658238,250.0,KES,Services
-658053,100.0,UGX,Personal Use#
+658053,100.0,UGX,Personal Use
 658011,475.0,NIS,Food
 658149,950.0,VND,Food
 658239,350.0,USD,Retail
 657888,125.0,KES,Food
 658194,600.0,USD,Agriculture
 657803,125.0,PHP,Agriculture
-657752,1150.0,VND,Services#
+657752,1150.0,VND,Services
 658007,525.0,NIS,Agriculture
 657858,2000.0,USD,Services
 657991,625.0,XOF,Food
@@ -4816,7 +4816,7 @@ lid,loan_amount,currency,sector#
 1080275,5000.0,USD,Food
 658283,800.0,NIO,Housing
 658062,100.0,UGX,Personal Use
-657987,850.0,XOF,Food#
+657987,850.0,XOF,Food
 658017,475.0,NIS,Food
 657903,450.0,PHP,Retail
 658089,975.0,ALL,Housing
@@ -4871,7 +4871,7 @@ lid,loan_amount,currency,sector#
 658114,1000.0,USD,Agriculture
 658143,950.0,VND,Services
 657905,2500.0,USD,Food
-657751,450.0,PHP,Transportation#
+657751,450.0,PHP,Transportation
 658013,400.0,NIS,Transportation
 657996,375.0,LRD,Food
 658179,600.0,USD,Agriculture
@@ -4911,7 +4911,7 @@ lid,loan_amount,currency,sector#
 658026,650.0,TJS,Services
 658038,250.0,SLL,Retail
 658148,1000.0,USD,Agriculture
-657766,450.0,PHP,Transportation#
+657766,450.0,PHP,Transportation
 658022,400.0,NIS,Services
 658060,350.0,PHP,Retail
 657873,600.0,KES,Services
@@ -4938,7 +4938,7 @@ lid,loan_amount,currency,sector#
 657847,350.0,PHP,Agriculture
 657923,250.0,KES,Retail
 658115,725.0,PEN,Food
-658232,500.0,USD,Retail#
+658232,500.0,USD,Retail
 657787,200.0,NIS,Services
 658214,500.0,USD,Agriculture
 658215,1200.0,PYG,Retail
@@ -4953,17 +4953,17 @@ lid,loan_amount,currency,sector#
 658158,1000.0,USD,Agriculture
 658087,800.0,UGX,Housing
 657926,1200.0,MNT,Housing
-658219,125.0,KES,Transportation#
+658219,125.0,KES,Transportation
 657796,250.0,NIS,Transportation
 658041,1300.0,USD,Transportation
 657768,275.0,PHP,Agriculture
 657976,1200.0,MNT,Food
 658052,300.0,SLL,Health
-658080,200.0,LRD,Food#
+658080,200.0,LRD,Food
 658020,475.0,NIS,Food
 658304,375.0,COP,Education
 658285,500.0,USD,Clothing
-658175,300.0,USD,Housing#
+658175,300.0,USD,Housing
 658019,400.0,NIS,Retail
 658168,250.0,USD,Food
 657883,150.0,PHP,Agriculture
@@ -4985,12 +4985,12 @@ lid,loan_amount,currency,sector#
 657870,625.0,UGX,Transportation
 1080273,125.0,KES,Food
 657930,450.0,PHP,Food
-657925,825.0,KES,Agriculture#
+657925,825.0,KES,Agriculture
 658008,400.0,NIS,Agriculture
 658302,1500.0,BOB,Retail
 658252,400.0,NIO,Retail
 658043,2000.0,USD,Services
-657789,650.0,WST,Food#
+657789,650.0,WST,Food
 658005,400.0,NIS,Food
 657798,650.0,TJS,Services
 658261,500.0,USD,Housing
@@ -5000,7 +5000,7 @@ lid,loan_amount,currency,sector#
 657931,3600.0,USD,Food
 658079,250.0,LRD,Food
 658181,1000.0,PEN,Construction
-657738,10000.0,USD,Food#
+657738,10000.0,USD,Food
 658002,525.0,NIS,Retail
 658262,400.0,USD,Agriculture
 658035,250.0,SLL,Food
@@ -5027,7 +5027,7 @@ lid,loan_amount,currency,sector#
 658130,725.0,VND,Food
 658185,775.0,GTQ,Services
 658207,250.0,KES,Retail
-657799,1075.0,KHR,Agriculture#
+657799,1075.0,KHR,Agriculture
 658012,450.0,NIS,Retail
 657857,350.0,PHP,Food
 658140,950.0,VND,Food
@@ -5055,7 +5055,7 @@ lid,loan_amount,currency,sector#
 657965,625.0,KHR,Agriculture
 658169,300.0,USD,Housing
 658091,400.0,NIO,Housing
-1080271,375.0,KES,Health#
+1080271,375.0,KES,Health
 657893,1425.0,NIS,Agriculture
 658133,650.0,PEN,Personal Use
 657942,1800.0,MNT,Transportation
@@ -5112,7 +5112,7 @@ lid,loan_amount,currency,sector#
 657984,300.0,UGX,Clothing
 658144,950.0,VND,Food
 658124,875.0,VND,Food
-657775,125.0,PHP,Food#
+657775,125.0,PHP,Food
 657825,1425.0,NIS,Agriculture
 657909,600.0,KES,Clothing
 657748,5200.0,PYG,Retail
@@ -5124,7 +5124,7 @@ lid,loan_amount,currency,sector#
 657745,225.0,PHP,Retail
 657856,275.0,PHP,Manufacturing
 657884,675.0,PHP,Retail
-657977,975.0,ALL,Education#
+657977,975.0,ALL,Education
 658016,475.0,NIS,Agriculture
 657744,1275.0,USD,Retail
 658227,1000.0,USD,Agriculture
@@ -5142,7 +5142,7 @@ lid,loan_amount,currency,sector#
 657986,375.0,LRD,Food
 658127,875.0,VND,Retail
 657902,1500.0,USD,Housing
-657937,600.0,KES,Agriculture#
+657937,600.0,KES,Agriculture
 658015,400.0,NIS,Clothing
 657892,1025.0,KHR,Housing
 658268,500.0,USD,Housing
@@ -5155,7 +5155,7 @@ lid,loan_amount,currency,sector#
 657982,1250.0,XOF,Clothing
 657826,225.0,PHP,Retail
 657874,1025.0,KES,Transportation
-657869,1400.0,MNT,Transportation#
+657869,1400.0,MNT,Transportation
 658027,450.0,NIS,Food
 658044,225.0,SLL,Retail
 657953,3575.0,MNT,Retail
@@ -5190,8 +5190,8 @@ lid,loan_amount,currency,sector#
 658074,800.0,NIO,Housing
 657816,1175.0,KES,Agriculture
 658294,500.0,USD,Housing
-658284,550.0,PEN,Food#
-658006,400.0,NIS,Retail#
+658284,550.0,PEN,Food
+658006,400.0,NIS,Retail
 657848,1425.0,NIS,Agriculture
 657920,1500.0,USD,Agriculture
 658045,225.0,SLL,Food
@@ -5213,7 +5213,7 @@ lid,loan_amount,currency,sector#
 657951,2200.0,USD,Agriculture
 658196,300.0,USD,Housing
 657936,1125.0,PHP,Retail
-1080274,5000.0,USD,Retail#
+1080274,5000.0,USD,Retail
 657792,475.0,NIS,Transportation
 658120,725.0,VND,Food
 658170,1250.0,HNL,Agriculture
@@ -5226,7 +5226,7 @@ lid,loan_amount,currency,sector#
 657975,825.0,KHR,Agriculture
 658093,725.0,PEN,Arts
 658104,350.0,USD,Housing
-657961,3000.0,USD,Agriculture#
+657961,3000.0,USD,Agriculture
 658010,400.0,NIS,Retail
 658097,125.0,UGX,Agriculture
 658103,450.0,COP,Education
@@ -5277,7 +5277,7 @@ lid,loan_amount,currency,sector#
 658183,300.0,USD,Housing
 658050,250.0,SLL,Food
 658221,825.0,CRC,Retail
-657959,850.0,XOF,Retail#
+657959,850.0,XOF,Retail
 657807,950.0,NIS,Food
 658208,600.0,USD,Agriculture
 657805,225.0,PHP,Retail
@@ -5363,7 +5363,7 @@ lid,loan_amount,currency,sector#
 658765,375.0,COP,Education
 658705,1075.0,PEN,Services
 658729,800.0,USD,Agriculture
-658365,1075.0,WST,Agriculture#
+658365,1075.0,WST,Agriculture
 658597,400.0,NIS,Services
 658409,650.0,WST,Transportation
 658450,175.0,PHP,Personal Use
@@ -5381,7 +5381,7 @@ lid,loan_amount,currency,sector#
 658715,300.0,PEN,Food
 658451,600.0,UGX,Agriculture
 658809,400.0,COP,Education
-658501,825.0,UGX,Agriculture#
+658501,825.0,UGX,Agriculture
 658591,400.0,NIS,Agriculture
 658746,1050.0,NIO,Agriculture
 658445,1100.0,WST,Food
@@ -5404,7 +5404,7 @@ lid,loan_amount,currency,sector#
 658772,700.0,USD,Retail
 658485,400.0,USD,Education
 658376,450.0,WST,Retail
-658609,625.0,XOF,Retail#
+658609,625.0,XOF,Retail
 658592,450.0,NIS,Food
 658682,1150.0,USD,Agriculture
 658801,2500.0,HNL,Services
@@ -5422,7 +5422,7 @@ lid,loan_amount,currency,sector#
 658829,3075.0,USD,Clothing
 658776,1000.0,USD,Personal Use
 658314,650.0,WST,Transportation
-658541,225.0,PHP,Retail#
+658541,225.0,PHP,Retail
 658604,400.0,NIS,Services
 658457,800.0,UGX,Housing
 658427,450.0,WST,Retail
@@ -5443,8 +5443,8 @@ lid,loan_amount,currency,sector#
 658770,375.0,COP,Services
 658524,125.0,KES,Agriculture
 658643,300.0,USD,Retail
-658323,650.0,WST,Agriculture#
-658601,400.0,NIS,Food#
+658323,650.0,WST,Agriculture
+658601,400.0,NIS,Food
 658588,400.0,NIS,Food
 658653,275.0,SLL,Food
 658550,250.0,INR,Food
@@ -5520,7 +5520,7 @@ lid,loan_amount,currency,sector#
 658520,950.0,KES,Education
 658357,525.0,KHR,Agriculture
 658399,450.0,WST,Food
-658589,600.0,KES,Retail#
+658589,600.0,KES,Retail
 658608,400.0,NIS,Food
 658713,300.0,USD,Housing
 658470,425.0,KHR,Agriculture
@@ -5553,7 +5553,7 @@ lid,loan_amount,currency,sector#
 658359,825.0,MNT,Education
 658634,525.0,RWF,Food
 658803,1175.0,NIO,Food
-658783,3175.0,HTG,Clothing#
+658783,3175.0,HTG,Clothing
 658586,400.0,NIS,Services
 658712,500.0,USD,Agriculture
 658756,525.0,CRC,Agriculture
@@ -5582,10 +5582,10 @@ lid,loan_amount,currency,sector#
 658804,375.0,PEN,Housing
 658652,425.0,UGX,Retail
 658687,375.0,PEN,Food
-658532,5850.0,USD,Food#
+658532,5850.0,USD,Food
 658583,400.0,NIS,Education
 658664,1000.0,USD,Food
-658565,425.0,TJS,Health#
+658565,425.0,TJS,Health
 658594,475.0,NIS,Food
 658582,800.0,USD,Education
 658482,350.0,KHR,Agriculture
@@ -5641,7 +5641,7 @@ lid,loan_amount,currency,sector#
 658556,2100.0,XOF,Clothing
 658505,250.0,KES,Services
 658735,2000.0,USD,Services
-658416,650.0,TJS,Services#
+658416,650.0,TJS,Services
 658598,475.0,NIS,Manufacturing
 658834,525.0,GTQ,Agriculture
 658464,200.0,PHP,Food
@@ -5710,7 +5710,7 @@ lid,loan_amount,currency,sector#
 658778,800.0,USD,Agriculture
 658645,1500.0,AMD,Health
 658649,725.0,PEN,Arts
-658810,1100.0,NIO,Retail#
+658810,1100.0,NIO,Retail
 658595,400.0,NIS,Retail
 658374,450.0,PHP,Agriculture
 658780,800.0,USD,Agriculture
@@ -5738,12 +5738,12 @@ lid,loan_amount,currency,sector#
 658795,1050.0,NIO,Housing
 658721,1050.0,SLL,Services
 658483,200.0,PHP,Retail
-658755,400.0,USD,Housing#
+658755,400.0,USD,Housing
 658599,400.0,NIS,Retail
 658475,1250.0,USD,Agriculture
 658699,1375.0,PEN,Food
 658395,1000.0,USD,Services
-658494,2950.0,USD,Food#
+658494,2950.0,USD,Food
 658584,450.0,NIS,Manufacturing
 658785,550.0,PEN,Food
 658689,500.0,USD,Food
@@ -5791,7 +5791,7 @@ lid,loan_amount,currency,sector#
 658339,275.0,PHP,Agriculture
 658420,1500.0,USD,Personal Use
 658356,450.0,WST,Services
-658495,600.0,KES,Agriculture#
+658495,600.0,KES,Agriculture
 658587,400.0,NIS,Arts
 658794,800.0,USD,Agriculture
 658545,325.0,TJS,Housing
@@ -6172,7 +6172,7 @@ lid,loan_amount,currency,sector#
 659543,600.0,USD,Retail
 659520,375.0,LRD,Retail
 659290,125.0,PHP,Retail
-659308,200.0,PHP,Agriculture#
+659308,200.0,PHP,Agriculture
 659392,400.0,NIS,Agriculture
 1080302,125.0,KES,Clothing
 659433,175.0,KES,Personal Use
@@ -6180,7 +6180,7 @@ lid,loan_amount,currency,sector#
 659214,600.0,USD,Transportation
 659561,300.0,USD,Food
 659526,300.0,LRD,Food
-659424,1500.0,USD,Health#
+659424,1500.0,USD,Health
 659391,450.0,NIS,Services
 659208,125.0,PHP,Retail
 659348,3000.0,USD,Agriculture
@@ -6199,7 +6199,7 @@ lid,loan_amount,currency,sector#
 659305,650.0,TJS,Personal Use
 659575,2225.0,PYG,Retail
 659513,750.0,NIO,Clothing
-659306,850.0,TJS,Services#
+659306,850.0,TJS,Services
 659396,400.0,NIS,Food
 659216,150.0,PHP,Retail
 659438,800.0,USD,Agriculture
@@ -6208,7 +6208,7 @@ lid,loan_amount,currency,sector#
 659524,3400.0,PEN,Retail
 659302,275.0,PHP,Agriculture
 659374,100.0,IDR,Services
-659552,400.0,USD,Housing#
+659552,400.0,USD,Housing
 659285,1425.0,NIS,Services
 659493,600.0,USD,Food
 659278,400.0,PHP,Retail
@@ -6235,7 +6235,7 @@ lid,loan_amount,currency,sector#
 659467,250.0,KES,Agriculture
 659236,150.0,PHP,Agriculture
 659189,5725.0,PYG,Food
-659357,250.0,KES,Retail#
+659357,250.0,KES,Retail
 659400,400.0,NIS,Retail
 659172,225.0,PHP,Agriculture
 659541,275.0,USD,Retail
@@ -6262,7 +6262,7 @@ lid,loan_amount,currency,sector#
 659215,225.0,PHP,Food
 659508,225.0,COP,Retail
 659518,725.0,PEN,Education
-659180,400.0,PHP,Transportation#
+659180,400.0,PHP,Transportation
 659389,400.0,NIS,Retail
 659205,450.0,PHP,Agriculture
 659251,350.0,PHP,Agriculture
@@ -6270,7 +6270,7 @@ lid,loan_amount,currency,sector#
 659375,2000.0,USD,Transportation
 659341,2400.0,USD,Services
 659244,1100.0,USD,Education
-659269,200.0,PHP,Retail#
+659269,200.0,PHP,Retail
 659404,400.0,NIS,Food
 659284,600.0,KES,Clothing
 659340,250.0,KES,Food
@@ -6300,7 +6300,7 @@ lid,loan_amount,currency,sector#
 659454,975.0,ALL,Services
 659463,250.0,SLL,Retail
 659486,600.0,USD,Agriculture
-659549,600.0,USD,Agriculture#
+659549,600.0,USD,Agriculture
 659323,950.0,NIS,Retail
 659210,900.0,PHP,Food
 659294,200.0,PHP,Education
@@ -6322,7 +6322,7 @@ lid,loan_amount,currency,sector#
 659563,400.0,USD,Housing
 659443,1800.0,USD,Food
 659565,350.0,USD,Agriculture
-659273,150.0,PHP,Food#
+659273,150.0,PHP,Food
 659395,400.0,NIS,Agriculture
 659547,450.0,PEN,Services
 659480,725.0,PEN,Agriculture
@@ -6339,7 +6339,7 @@ lid,loan_amount,currency,sector#
 659369,225.0,TJS,Education
 659187,150.0,PHP,Agriculture
 659286,950.0,KES,Clothing
-659212,275.0,PHP,Transportation#
+659212,275.0,PHP,Transportation
 659293,1425.0,NIS,Agriculture
 659201,225.0,PHP,Agriculture
 659557,450.0,COP,Education
@@ -6366,12 +6366,12 @@ lid,loan_amount,currency,sector#
 659333,475.0,KES,Agriculture
 659514,375.0,LRD,Clothing
 659474,500.0,USD,Housing
-659372,175.0,UGX,Food#
+659372,175.0,UGX,Food
 659401,475.0,NIS,Agriculture
 659177,1000.0,USD,Personal Use
 659412,2000.0,USD,Agriculture
 659419,3000.0,USD,Retail
-659495,250.0,SLL,Retail#
+659495,250.0,SLL,Retail
 659394,400.0,NIS,Retail
 659159,1175.0,PYG,Retail
 659234,225.0,PHP,Agriculture
@@ -6396,7 +6396,7 @@ lid,loan_amount,currency,sector#
 659163,525.0,COP,Retail
 659252,450.0,PHP,Retail
 659560,1025.0,COP,Services
-1080300,250.0,KES,Retail#
+1080300,250.0,KES,Retail
 659307,950.0,NIS,Retail
 659178,4625.0,PYG,Retail
 659577,875.0,USD,Agriculture
@@ -6428,11 +6428,11 @@ lid,loan_amount,currency,sector#
 659277,200.0,PHP,Agriculture
 659229,150.0,PHP,Transportation
 659194,2350.0,MNT,Housing
-659422,750.0,AMD,Services#
+659422,750.0,AMD,Services
 659300,1900.0,NIS,Retail
 659567,825.0,USD,Retail
 659576,875.0,USD,Retail
-659204,2850.0,PYG,Food#
+659204,2850.0,PYG,Food
 659414,400.0,NIS,Transportation
 659327,725.0,XOF,Retail
 659451,125.0,UGX,Food
@@ -6462,9 +6462,9 @@ lid,loan_amount,currency,sector#
 1080301,250.0,KES,Services
 659530,375.0,COP,Education
 659345,950.0,KES,Agriculture
-659482,400.0,USD,Housing#
-659403,400.0,NIS,Retail#
-659408,450.0,NIS,Education#
+659482,400.0,USD,Housing
+659403,400.0,NIS,Retail
+659408,450.0,NIS,Education
 659413,400.0,NIS,Agriculture
 659469,475.0,ZMW,Services
 659448,125.0,UGX,Services
@@ -6478,7 +6478,7 @@ lid,loan_amount,currency,sector#
 659243,500.0,USD,Food
 659459,1025.0,COP,Agriculture
 1080289,125.0,KES,Arts
-659298,3000.0,USD,Clothing#
+659298,3000.0,USD,Clothing
 659406,400.0,NIS,Agriculture
 659505,250.0,SLL,Retail
 659386,2500.0,USD,Transportation
@@ -6524,11 +6524,11 @@ lid,loan_amount,currency,sector#
 659191,725.0,KHR,Services
 659304,350.0,PHP,Retail
 659256,900.0,PHP,Manufacturing
-659471,400.0,USD,Housing#
+659471,400.0,USD,Housing
 659415,400.0,NIS,Agriculture
-659171,850.0,COP,Retail#
+659171,850.0,COP,Retail
 659383,450.0,NIS,Services
-659509,300.0,LRD,Food#
+659509,300.0,LRD,Food
 659409,575.0,NIS,Food
 659503,650.0,SLL,Retail
 659420,125.0,KES,Agriculture
@@ -6557,14 +6557,14 @@ lid,loan_amount,currency,sector#
 659279,650.0,USD,Services
 659476,225.0,SLL,Food
 1080290,125.0,KES,Food
-659186,4025.0,PYG,Food#
+659186,4025.0,PYG,Food
 659385,450.0,NIS,Agriculture
 659331,625.0,UGX,Retail
 659250,275.0,PHP,Agriculture
 659373,1400.0,YER,Retail
 659430,1500.0,AMD,Clothing
 659483,675.0,NIO,Food
-659584,1075.0,USD,Agriculture#
+659584,1075.0,USD,Agriculture
 659407,475.0,NIS,Agriculture
 659465,600.0,KES,Agriculture
 659233,400.0,PHP,Agriculture
@@ -6577,7 +6577,7 @@ lid,loan_amount,currency,sector#
 1080295,125.0,KES,Arts
 1080304,250.0,KES,Food
 659220,200.0,PHP,Retail
-659169,1200.0,PYG,Retail#
+659169,1200.0,PYG,Retail
 659397,400.0,NIS,Agriculture
 659499,350.0,SLL,Clothing
 659334,3000.0,USD,Services
@@ -6672,7 +6672,7 @@ lid,loan_amount,currency,sector#
 659631,225.0,PHP,Food
 660059,900.0,GTQ,Agriculture
 659594,725.0,PEN,Personal Use
-659882,1200.0,KGS,Agriculture#
+659882,1200.0,KGS,Agriculture
 659705,400.0,NIS,Food
 659901,1800.0,USD,Food
 659589,6100.0,PYG,Retail
@@ -6689,7 +6689,7 @@ lid,loan_amount,currency,sector#
 660020,375.0,PEN,Food
 659749,400.0,KHR,Housing
 659768,325.0,KHR,Agriculture
-660113,300.0,LRD,Food#
+660113,300.0,LRD,Food
 659746,450.0,NIS,Food
 659774,1125.0,PHP,Retail
 659695,2025.0,KGS,Agriculture
@@ -6736,7 +6736,7 @@ lid,loan_amount,currency,sector#
 660014,1150.0,SLL,Food
 659679,900.0,PYG,Education
 660123,250.0,USD,Housing
-659611,1000.0,USD,Personal Use#
+659611,1000.0,USD,Personal Use
 659937,400.0,NIS,Services
 660106,1250.0,USD,Food
 659913,3000.0,TJS,Services
@@ -6747,7 +6747,7 @@ lid,loan_amount,currency,sector#
 659918,5875.0,KES,Retail
 660001,1200.0,USD,Transportation
 659730,1050.0,TJS,Health
-659892,250.0,PHP,Food#
+659892,250.0,PHP,Food
 659702,250.0,NIS,Food
 659796,825.0,UGX,Housing
 659809,225.0,UGX,Retail
@@ -6775,7 +6775,7 @@ lid,loan_amount,currency,sector#
 659804,375.0,KES,Agriculture
 659758,1300.0,USD,Education
 659745,450.0,USD,Agriculture
-659844,425.0,TJS,Retail#
+659844,425.0,TJS,Retail
 659939,400.0,NIS,Food
 660030,600.0,USD,Agriculture
 659734,125.0,PHP,Agriculture
@@ -6785,7 +6785,7 @@ lid,loan_amount,currency,sector#
 659694,775.0,TJS,Education
 1080314,10000.0,USD,Retail
 660118,1500.0,USD,Services
-660117,500.0,USD,Retail#
+660117,500.0,USD,Retail
 659943,400.0,NIS,Retail
 659822,225.0,PHP,Retail
 660153,3475.0,BOB,Food
@@ -6796,7 +6796,7 @@ lid,loan_amount,currency,sector#
 659672,1200.0,PYG,Wholesale
 660143,350.0,USD,Housing
 659898,5375.0,INR,Agriculture
-659972,975.0,ALL,Agriculture#
+659972,975.0,ALL,Agriculture
 659807,400.0,NIS,Retail
 659754,1125.0,PHP,Transportation
 660058,500.0,USD,Agriculture
@@ -6834,7 +6834,7 @@ lid,loan_amount,currency,sector#
 659915,500.0,USD,Food
 659761,575.0,PHP,Agriculture
 659978,2000.0,USD,Agriculture
-660040,3275.0,GTQ,Retail#
+660040,3275.0,GTQ,Retail
 659942,475.0,NIS,Clothing
 659703,3425.0,INR,Agriculture
 659634,375.0,PHP,Transportation
@@ -6945,10 +6945,10 @@ lid,loan_amount,currency,sector#
 660036,1075.0,PEN,Retail
 659961,200.0,LRD,Food
 659821,125.0,PHP,Agriculture
-659719,525.0,TJS,Food#
+659719,525.0,TJS,Food
 659941,400.0,NIS,Retail
 660176,400.0,GTQ,Retail
-660129,250.0,LRD,Food#
+660129,250.0,LRD,Food
 659946,400.0,NIS,Arts
 659990,425.0,LRD,Food
 659790,175.0,TJS,Agriculture
@@ -6959,7 +6959,7 @@ lid,loan_amount,currency,sector#
 660010,7125.0,USD,Clothing
 660088,400.0,USD,Housing
 659983,225.0,UGX,Retail
-659742,1225.0,UGX,Retail#
+659742,1225.0,UGX,Retail
 659696,250.0,NIS,Services
 659770,475.0,IDR,Services
 659801,1275.0,TJS,Agriculture
@@ -6977,7 +6977,7 @@ lid,loan_amount,currency,sector#
 659948,750.0,AMD,Retail
 659949,3000.0,USD,Clothing
 659648,4975.0,PYG,Food
-660054,500.0,USD,Retail#
+660054,500.0,USD,Retail
 659757,725.0,NIS,Food
 659706,750.0,KES,Agriculture
 659976,750.0,KES,Agriculture
@@ -6998,7 +6998,7 @@ lid,loan_amount,currency,sector#
 659968,175.0,LRD,Food
 660087,275.0,LRD,Retail
 659681,675.0,PYG,Education
-659947,1500.0,USD,Services#
+659947,1500.0,USD,Services
 659785,475.0,NIS,Food
 660144,600.0,USD,Agriculture
 660038,1600.0,USD,Services
@@ -7011,7 +7011,7 @@ lid,loan_amount,currency,sector#
 659962,750.0,RWF,Retail
 660012,925.0,SLL,Retail
 659662,1200.0,PYG,Services
-659739,225.0,PHP,Agriculture#
+659739,225.0,PHP,Agriculture
 659725,250.0,NIS,Transportation
 659727,325.0,PHP,Food
 660097,250.0,NIO,Agriculture
@@ -7020,10 +7020,10 @@ lid,loan_amount,currency,sector#
 660158,725.0,PEN,Entertainment
 659858,1900.0,TJS,Agriculture
 659827,225.0,PHP,Agriculture
-659596,550.0,PEN,Transportation#
+659596,550.0,PEN,Transportation
 659717,350.0,NIS,Clothing
 660051,600.0,USD,Retail
-659979,225.0,UGX,Retail#
+659979,225.0,UGX,Retail
 659847,950.0,NIS,Retail
 660178,250.0,USD,Housing
 659861,1275.0,IDR,Services
@@ -7034,7 +7034,7 @@ lid,loan_amount,currency,sector#
 659651,225.0,PHP,Retail
 659812,1750.0,GEL,Agriculture
 659665,325.0,PHP,Retail
-660135,1700.0,BOB,Food#
+660135,1700.0,BOB,Food
 659699,200.0,NIS,Retail
 659676,1100.0,PYG,Education
 659664,1025.0,KGS,Agriculture
@@ -7105,8 +7105,8 @@ lid,loan_amount,currency,sector#
 660150,1825.0,BOB,Clothing
 659732,425.0,UGX,Agriculture
 1080306,125.0,KES,Food
-660148,350.0,USD,Housing#
-659932,400.0,NIS,Clothing#
+660148,350.0,USD,Housing
+659932,400.0,NIS,Clothing
 659765,250.0,NIS,Food
 659773,825.0,EUR,Housing
 659874,2100.0,TJS,Agriculture
@@ -7129,7 +7129,7 @@ lid,loan_amount,currency,sector#
 660111,1500.0,USD,Clothing
 659726,850.0,KHR,Agriculture
 660108,250.0,USD,Retail
-660025,925.0,SLL,Health#
+660025,925.0,SLL,Health
 659944,450.0,NIS,Retail
 659829,175.0,PHP,Agriculture
 659792,825.0,UGX,Transportation
@@ -7144,13 +7144,13 @@ lid,loan_amount,currency,sector#
 659653,3625.0,PYG,Retail
 660053,300.0,USD,Food
 659721,525.0,KHR,Agriculture
-659776,425.0,UGX,Retail#
+659776,425.0,UGX,Retail
 659940,400.0,NIS,Food
 659604,5875.0,PYG,Services
 659645,1025.0,KGS,Agriculture
 660039,1000.0,USD,Retail
 659823,2050.0,USD,Food
-659600,1200.0,PYG,Services#
+659600,1200.0,PYG,Services
 659935,400.0,NIS,Services
 659989,500.0,ALL,Construction
 659592,550.0,PEN,Food
@@ -7176,7 +7176,7 @@ lid,loan_amount,currency,sector#
 659897,200.0,PHP,Food
 659969,250.0,LRD,Food
 659593,1325.0,PEN,Agriculture
-659995,500.0,USD,Housing#
+659995,500.0,USD,Housing
 659839,1625.0,NIS,Food
 660068,1000.0,HNL,Food
 659907,200.0,PHP,Services
@@ -7235,7 +7235,7 @@ lid,loan_amount,currency,sector#
 660204,600.0,IDR,Retail
 660284,350.0,PHP,Food
 660585,600.0,USD,Agriculture
-660630,1525.0,COP,Retail#
+660630,1525.0,COP,Retail
 660425,400.0,NIS,Services
 660308,1600.0,USD,Retail
 660482,175.0,PHP,Retail
@@ -7262,8 +7262,8 @@ lid,loan_amount,currency,sector#
 660481,1200.0,GEL,Clothing
 660495,6275.0,USD,Clothing
 660412,300.0,KES,Retail
-660522,200.0,KES,Agriculture#
-660344,250.0,NIS,Manufacturing#
+660522,200.0,KES,Agriculture
+660344,250.0,NIS,Manufacturing
 660439,400.0,NIS,Agriculture
 660441,375.0,YER,Clothing
 660660,800.0,NIO,Entertainment
@@ -7297,7 +7297,7 @@ lid,loan_amount,currency,sector#
 660329,350.0,KES,Agriculture
 660695,725.0,PEN,Construction
 660267,1500.0,USD,Agriculture
-660458,300.0,LRD,Food#
+660458,300.0,LRD,Food
 660400,475.0,NIS,Manufacturing
 660560,1500.0,USD,Agriculture
 660698,125.0,PHP,Retail
@@ -7347,10 +7347,10 @@ lid,loan_amount,currency,sector#
 660317,525.0,KHR,Agriculture
 660387,3000.0,USD,Agriculture
 660647,1000.0,USD,Food
-660289,1000.0,PHP,Transportation#
+660289,1000.0,PHP,Transportation
 660404,400.0,NIS,Agriculture
 660681,200.0,PEN,Agriculture
-660646,1025.0,CRC,Construction#
+660646,1025.0,CRC,Construction
 660333,350.0,NIS,Transportation
 660523,350.0,KES,Agriculture
 660561,200.0,PHP,Food
@@ -7381,7 +7381,7 @@ lid,loan_amount,currency,sector#
 660321,550.0,KHR,Agriculture
 660378,2400.0,USD,Services
 660304,700.0,TJS,Health
-660299,650.0,TJS,Personal Use#
+660299,650.0,TJS,Personal Use
 660417,400.0,NIS,Retail
 660229,1125.0,PHP,Agriculture
 660554,350.0,PHP,Retail
@@ -7457,7 +7457,7 @@ lid,loan_amount,currency,sector#
 660262,1100.0,USD,Education
 660635,1000.0,USD,Agriculture
 660286,2525.0,TJS,Clothing
-660330,5350.0,USD,Clothing#
+660330,5350.0,USD,Clothing
 660414,400.0,NIS,Transportation
 660271,1975.0,INR,Agriculture
 660617,1550.0,USD,Arts
@@ -7480,7 +7480,7 @@ lid,loan_amount,currency,sector#
 660194,150.0,PHP,Retail
 660295,625.0,UGX,Housing
 660603,600.0,USD,Agriculture
-660690,1525.0,MXN,Services#
+660690,1525.0,MXN,Services
 660422,400.0,NIS,Retail
 660662,775.0,GTQ,Arts
 660432,2100.0,YER,Arts
@@ -7511,7 +7511,7 @@ lid,loan_amount,currency,sector#
 660210,350.0,PHP,Retail
 660241,175.0,PHP,Agriculture
 660438,500.0,UGX,Education
-660352,1250.0,KHR,Agriculture#
+660352,1250.0,KHR,Agriculture
 660302,250.0,NIS,Retail
 660674,450.0,COP,Education
 660236,675.0,PHP,Food
@@ -7542,7 +7542,7 @@ lid,loan_amount,currency,sector#
 660287,1500.0,USD,Agriculture
 660314,4075.0,INR,Agriculture
 660638,775.0,MXN,Transportation
-660335,1575.0,KHR,Agriculture#
+660335,1575.0,KHR,Agriculture
 660424,400.0,NIS,Transportation
 660529,1300.0,USD,Agriculture
 1080317,150.0,KES,Services
@@ -7573,7 +7573,7 @@ lid,loan_amount,currency,sector#
 660247,2700.0,KGS,Agriculture
 660568,725.0,PEN,Agriculture
 660240,125.0,PHP,Agriculture
-660683,1600.0,USD,Retail#
+660683,1600.0,USD,Retail
 660407,400.0,NIS,Retail
 660405,375.0,SLL,Clothing
 660688,1075.0,PEN,Retail
@@ -7615,7 +7615,7 @@ lid,loan_amount,currency,sector#
 660469,225.0,PHP,Retail
 660692,450.0,COP,Education
 660440,125.0,LRD,Food
-660540,225.0,UGX,Education#
+660540,225.0,UGX,Education
 660298,475.0,NIS,Services
 660609,6625.0,PEN,Agriculture
 660551,825.0,UGX,Food
@@ -7641,8 +7641,8 @@ lid,loan_amount,currency,sector#
 660447,3000.0,USD,Food
 660478,325.0,PHP,Food
 660524,225.0,UGX,Clothing
-660283,2100.0,IDR,Agriculture#
-660403,400.0,NIS,Retail#
+660283,2100.0,IDR,Agriculture
+660403,400.0,NIS,Retail
 660423,475.0,NIS,Services
 660693,125.0,PHP,Retail
 660570,850.0,USD,Retail
@@ -7699,7 +7699,7 @@ lid,loan_amount,currency,sector#
 660534,1400.0,USD,Agriculture
 660205,275.0,PHP,Retail
 660487,550.0,PHP,Food
-660575,5050.0,COP,Food#
+660575,5050.0,COP,Food
 660328,300.0,NIS,Transportation
 660394,1775.0,MNT,Manufacturing
 660564,800.0,USD,Agriculture
@@ -7708,7 +7708,7 @@ lid,loan_amount,currency,sector#
 660557,600.0,USD,Services
 660528,1375.0,UGX,Clothing
 660559,125.0,UGX,Food
-660641,800.0,USD,Transportation#
+660641,800.0,USD,Transportation
 660309,475.0,NIS,Transportation
 660504,350.0,KES,Agriculture
 660231,1225.0,IDR,Agriculture
@@ -7738,7 +7738,7 @@ lid,loan_amount,currency,sector#
 661034,4900.0,TZS,Food
 660911,325.0,KES,Construction
 661122,1125.0,USD,Retail
-660856,1200.0,MNT,Clothing#
+660856,1200.0,MNT,Clothing
 660973,525.0,NIS,Arts
 660847,250.0,KES,Food
 660920,225.0,PHP,Transportation
@@ -7786,7 +7786,7 @@ lid,loan_amount,currency,sector#
 660744,350.0,PHP,Retail
 660760,1700.0,USD,Education
 660981,1000.0,USD,Construction
-660748,1425.0,MNT,Retail#
+660748,1425.0,MNT,Retail
 660761,400.0,NIS,Food
 661136,1075.0,PEN,Agriculture
 661053,875.0,BOB,Agriculture
@@ -7815,7 +7815,7 @@ lid,loan_amount,currency,sector#
 660792,600.0,USD,Clothing
 661121,1075.0,PEN,Agriculture
 660743,725.0,MNT,Clothing
-660794,2950.0,MNT,Clothing#
+660794,2950.0,MNT,Clothing
 660776,250.0,NIS,Manufacturing
 660871,825.0,UGX,Agriculture
 660833,825.0,UGX,Agriculture
@@ -7895,7 +7895,7 @@ lid,loan_amount,currency,sector#
 660854,125.0,KES,Services
 660963,200.0,PHP,Retail
 661101,2275.0,MXN,Retail
-660706,200.0,PEN,Transportation#
+660706,200.0,PEN,Transportation
 660754,250.0,NIS,Retail
 660757,125.0,PHP,Agriculture
 661135,1000.0,USD,Agriculture
@@ -7921,7 +7921,7 @@ lid,loan_amount,currency,sector#
 661156,1750.0,NIO,Education
 660913,2375.0,JOD,Agriculture
 660849,325.0,TJS,Food
-661153,1075.0,PEN,Food#
+661153,1075.0,PEN,Food
 660952,475.0,NIS,Retail
 660944,350.0,KES,Retail
 661162,1000.0,USD,Clothing
@@ -7957,7 +7957,7 @@ lid,loan_amount,currency,sector#
 660731,4700.0,MNT,Food
 660790,6000.0,USD,Food
 660968,600.0,KES,Food
-661074,1000.0,USD,Arts#
+661074,1000.0,USD,Arts
 660964,525.0,NIS,Arts
 661093,1000.0,USD,Housing
 661015,350.0,LRD,Food
@@ -7970,7 +7970,7 @@ lid,loan_amount,currency,sector#
 660869,500.0,USD,Education
 661020,475.0,LRD,Food
 660736,200.0,PHP,Food
-661008,525.0,RWF,Food#
+661008,525.0,RWF,Food
 660745,250.0,NIS,Services
 660934,200.0,PHP,Food
 661133,1025.0,COP,Services
@@ -7989,7 +7989,7 @@ lid,loan_amount,currency,sector#
 660773,500.0,USD,Education
 660875,1025.0,UGX,Clothing
 660957,350.0,KES,Retail
-660837,250.0,KES,Services#
+660837,250.0,KES,Services
 660959,400.0,NIS,Retail
 660812,650.0,MNT,Services
 661038,525.0,XAF,Food
@@ -8057,7 +8057,7 @@ lid,loan_amount,currency,sector#
 661081,325.0,NPR,Food
 661179,5875.0,USD,Food
 660808,500.0,USD,Education
-661176,800.0,USD,Retail#
+661176,800.0,USD,Retail
 660962,475.0,NIS,Food
 661082,1225.0,UGX,Health
 660834,3550.0,MNT,Food
@@ -8086,7 +8086,7 @@ lid,loan_amount,currency,sector#
 661114,300.0,LRD,Food
 660863,150.0,PHP,Food
 660999,2300.0,AZN,Agriculture
-660836,1000.0,NPR,Construction#
+660836,1000.0,NPR,Construction
 660966,400.0,NIS,Food
 661042,750.0,RWF,Agriculture
 661065,250.0,LRD,Food
@@ -8106,7 +8106,7 @@ lid,loan_amount,currency,sector#
 660907,225.0,PHP,Agriculture
 660758,450.0,PHP,Services
 661144,725.0,PEN,Agriculture
-660740,1100.0,USD,Education#
+660740,1100.0,USD,Education
 660956,400.0,NIS,Agriculture
 660868,250.0,KES,Services
 1080325,125.0,KES,Services
@@ -8120,11 +8120,11 @@ lid,loan_amount,currency,sector#
 661016,350.0,KES,Food
 661006,4300.0,ILS,Clothing
 660728,1775.0,MNT,Food
-661077,325.0,NPR,Agriculture#
+661077,325.0,NPR,Agriculture
 660839,950.0,NIS,Manufacturing
 660930,1050.0,JOD,Retail
 660734,1000.0,USD,Personal Use
-661025,650.0,INR,Agriculture#
+661025,650.0,INR,Agriculture
 660950,400.0,NIS,Services
 661087,600.0,USD,Retail
 661083,625.0,COP,Food
@@ -8204,7 +8204,7 @@ lid,loan_amount,currency,sector#
 661073,225.0,XAF,Food
 660917,450.0,PHP,Agriculture
 661005,700.0,LRD,Clothing
-661138,1250.0,PEN,Transportation#
+661138,1250.0,PEN,Transportation
 660954,450.0,NIS,Agriculture
 661449,1700.0,USD,Agriculture
 661205,750.0,VND,Education
@@ -8223,7 +8223,7 @@ lid,loan_amount,currency,sector#
 661424,750.0,TJS,Personal Use
 661411,400.0,SLL,Retail
 661244,650.0,TJS,Food
-661629,500.0,USD,Retail#
+661629,500.0,USD,Retail
 661284,300.0,NIS,Services
 661706,775.0,GTQ,Retail
 661719,525.0,GTQ,Retail
@@ -8231,7 +8231,7 @@ lid,loan_amount,currency,sector#
 661400,1200.0,MNT,Services
 661234,3675.0,PYG,Clothing
 661219,225.0,PHP,Food
-661423,700.0,KHR,Agriculture#
+661423,700.0,KHR,Agriculture
 661491,400.0,NIS,Retail
 661503,150.0,SLL,Retail
 661383,625.0,UGX,Food
@@ -8243,14 +8243,14 @@ lid,loan_amount,currency,sector#
 661368,375.0,KES,Food
 661354,1950.0,ALL,Clothing
 661253,5900.0,PYG,Food
-661363,525.0,KES,Retail#
+661363,525.0,KES,Retail
 661476,400.0,NIS,Retail
 661649,725.0,PEN,Food
 661495,350.0,SLL,Clothing
 661416,850.0,USD,Agriculture
 1080337,125.0,KES,Agriculture
 661194,600.0,MNT,Education
-661707,375.0,COP,Education#
+661707,375.0,COP,Education
 661482,400.0,NIS,Food
 661462,3525.0,KES,Personal Use
 661453,1400.0,USD,Personal Use
@@ -8301,7 +8301,7 @@ lid,loan_amount,currency,sector#
 661331,75.0,KES,Food
 661192,350.0,PHP,Retail
 661721,400.0,GTQ,Retail
-661599,275.0,UGX,Agriculture#
+661599,275.0,UGX,Agriculture
 661295,475.0,NIS,Retail
 661412,600.0,KHR,Agriculture
 661603,775.0,HNL,Food
@@ -8309,7 +8309,7 @@ lid,loan_amount,currency,sector#
 661525,450.0,RWF,Food
 661661,650.0,GTQ,Construction
 661561,625.0,UGX,Housing
-1080346,125.0,KES,Services#
+1080346,125.0,KES,Services
 661477,400.0,NIS,Transportation
 661316,200.0,PHP,Food
 661723,1600.0,USD,Services
@@ -8321,7 +8321,7 @@ lid,loan_amount,currency,sector#
 661375,1125.0,PHP,Food
 661563,600.0,USD,Food
 661523,2575.0,AZN,Agriculture
-661607,200.0,USD,Retail#
+661607,200.0,USD,Retail
 661461,575.0,NIS,Retail
 661517,850.0,USD,Agriculture
 661362,1275.0,TJS,Agriculture
@@ -8336,7 +8336,7 @@ lid,loan_amount,currency,sector#
 1080343,250.0,KES,Retail
 661712,3525.0,GTQ,Clothing
 661722,5000.0,USD,Retail
-661366,125.0,KES,Food#
+661366,125.0,KES,Food
 661467,400.0,NIS,Transportation
 661601,1600.0,USD,Agriculture
 661544,975.0,ALL,Retail
@@ -8393,7 +8393,7 @@ lid,loan_amount,currency,sector#
 661207,525.0,VND,Education
 661575,375.0,TRY,Services
 661328,300.0,KES,Arts
-661364,50.0,PHP,Personal Use#
+661364,50.0,PHP,Personal Use
 661465,400.0,NIS,Food
 661277,350.0,PHP,Clothing
 661690,4325.0,BOB,Food
@@ -8415,7 +8415,7 @@ lid,loan_amount,currency,sector#
 661528,2575.0,AZN,Transportation
 661377,2100.0,USD,Agriculture
 661360,1950.0,ALL,Clothing
-661278,225.0,PHP,Retail#
+661278,225.0,PHP,Retail
 661468,400.0,NIS,Services
 661389,400.0,PHP,Retail
 661309,450.0,PHP,Retail
@@ -8494,8 +8494,8 @@ lid,loan_amount,currency,sector#
 661518,225.0,TRY,Clothing
 661705,725.0,BOB,Education
 661546,600.0,RWF,Food
-661627,300.0,HNL,Clothing#
-661490,575.0,NIS,Agriculture#
+661627,300.0,HNL,Clothing
+661490,575.0,NIS,Agriculture
 661485,450.0,NIS,Manufacturing
 661410,700.0,KHR,Agriculture
 661572,525.0,RWF,Food
@@ -8511,7 +8511,7 @@ lid,loan_amount,currency,sector#
 661522,350.0,TRY,Clothing
 661327,275.0,PHP,Education
 661724,525.0,GTQ,Housing
-661329,700.0,KES,Food#
+661329,700.0,KES,Food
 661452,475.0,NIS,Food
 661609,2650.0,GTQ,Food
 661615,275.0,UGX,Agriculture
@@ -8533,7 +8533,7 @@ lid,loan_amount,currency,sector#
 661445,1500.0,USD,Manufacturing
 661679,1000.0,USD,Clothing
 661348,825.0,KES,Retail
-661242,2300.0,KGS,Agriculture#
+661242,2300.0,KGS,Agriculture
 661466,475.0,NIS,Food
 661282,12925.0,INR,Retail
 661657,1400.0,USD,Retail
@@ -8561,7 +8561,7 @@ lid,loan_amount,currency,sector#
 661725,1300.0,USD,Retail
 661279,625.0,UGX,Services
 661589,1725.0,NIO,Education
-661441,1375.0,EUR,Housing#
+661441,1375.0,EUR,Housing
 661287,575.0,NIS,Arts
 661371,350.0,PHP,Agriculture
 661614,1500.0,USD,Food
@@ -8572,7 +8572,7 @@ lid,loan_amount,currency,sector#
 661715,1500.0,USD,Arts
 661496,600.0,KES,Services
 661704,450.0,USD,Agriculture
-661209,250.0,USD,Housing#
+661209,250.0,USD,Housing
 661456,475.0,NIS,Food
 661652,500.0,USD,Retail
 661631,325.0,GTQ,Arts
@@ -8591,7 +8591,7 @@ lid,loan_amount,currency,sector#
 661265,150.0,PHP,Agriculture
 661302,4300.0,USD,Transportation
 661301,275.0,PHP,Agriculture
-661457,475.0,SLL,Retail#
+661457,475.0,SLL,Retail
 661480,400.0,NIS,Clothing
 661336,125.0,KES,Services
 661318,600.0,IDR,Services
@@ -8605,7 +8605,7 @@ lid,loan_amount,currency,sector#
 661588,250.0,USD,Clothing
 661521,200.0,SLL,Retail
 661524,300.0,GEL,Clothing
-661471,250.0,SLL,Retail#
+661471,250.0,SLL,Retail
 661288,475.0,NIS,Transportation
 661708,350.0,COP,Education
 661519,200.0,SLL,Food
@@ -8638,9 +8638,9 @@ lid,loan_amount,currency,sector#
 661324,1500.0,USD,Services
 661547,500.0,ALL,Agriculture
 661357,375.0,MNT,Personal Use
-661646,7525.0,USD,Services#
+661646,7525.0,USD,Services
 661475,400.0,NIS,Retail
-661693,375.0,USD,Services#
+661693,375.0,USD,Services
 661303,250.0,NIS,Services
 661552,700.0,USD,Food
 661698,1500.0,USD,Retail
@@ -8693,7 +8693,7 @@ lid,loan_amount,currency,sector#
 1080339,125.0,KES,Arts
 661620,200.0,USD,Retail
 661536,275.0,UGX,Agriculture
-661512,125.0,KES,Services#
+661512,125.0,KES,Services
 661459,475.0,NIS,Retail
 661273,475.0,KES,Food
 661256,125.0,KES,Food
@@ -8718,7 +8718,7 @@ lid,loan_amount,currency,sector#
 661394,825.0,KES,Education
 1080347,5000.0,USD,Food
 661240,4575.0,PYG,Food
-661448,250.0,KES,Food#
+661448,250.0,KES,Food
 661472,400.0,NIS,Arts
 661590,725.0,PEN,Retail
 661310,600.0,KES,Agriculture
@@ -9043,7 +9043,7 @@ lid,loan_amount,currency,sector#
 662194,475.0,JOD,Manufacturing
 662395,1025.0,USD,Retail
 662000,5900.0,USD,Services
-662177,200.0,PHP,Retail#
+662177,200.0,PHP,Retail
 662274,350.0,NIS,Food
 662413,1100.0,USD,Agriculture
 662014,2650.0,MNT,Food
@@ -9053,7 +9053,7 @@ lid,loan_amount,currency,sector#
 662584,1275.0,MXN,Clothing
 662168,600.0,USD,Health
 662561,750.0,USD,Agriculture
-662553,1000.0,USD,Retail#
+662553,1000.0,USD,Retail
 662307,400.0,NIS,Agriculture
 662003,200.0,PHP,Food
 662454,500.0,USD,Education
@@ -9120,7 +9120,7 @@ lid,loan_amount,currency,sector#
 662136,150.0,PHP,Retail
 662118,2850.0,TZS,Health
 662005,225.0,USD,Agriculture
-662583,400.0,USD,Housing#
+662583,400.0,USD,Housing
 662301,525.0,NIS,Retail
 662150,275.0,PHP,Retail
 662508,1200.0,USD,Agriculture
@@ -9130,7 +9130,7 @@ lid,loan_amount,currency,sector#
 662134,525.0,KHR,Housing
 662027,900.0,MNT,Housing
 662375,675.0,PHP,Retail
-662180,1300.0,AZN,Transportation#
+662180,1300.0,AZN,Transportation
 662305,400.0,NIS,Food
 662359,2000.0,USD,Retail
 662158,2150.0,BIF,Construction
@@ -9139,7 +9139,7 @@ lid,loan_amount,currency,sector#
 662132,950.0,YER,Housing
 662357,1975.0,GEL,Agriculture
 662448,1000.0,USD,Agriculture
-662018,425.0,PHP,Agriculture#
+662018,425.0,PHP,Agriculture
 662312,475.0,NIS,Transportation
 662115,200.0,PHP,Food
 662524,525.0,USD,Personal Use
@@ -9164,7 +9164,7 @@ lid,loan_amount,currency,sector#
 662528,525.0,HNL,Food
 662541,1000.0,USD,Agriculture
 662171,500.0,USD,Personal Use
-661977,225.0,PHP,Clothing#
+661977,225.0,PHP,Clothing
 662087,200.0,NIS,Food
 662592,1475.0,HNL,Agriculture
 662557,1000.0,USD,Housing
@@ -9183,7 +9183,7 @@ lid,loan_amount,currency,sector#
 662362,275.0,PHP,Retail
 662082,1050.0,USD,Agriculture
 662579,1500.0,USD,Personal Use
-662031,725.0,MNT,Housing#
+662031,725.0,MNT,Housing
 662198,400.0,NIS,Manufacturing
 662056,150.0,PHP,Retail
 662252,2800.0,GEL,Agriculture
@@ -9201,7 +9201,7 @@ lid,loan_amount,currency,sector#
 662510,550.0,USD,Construction
 662011,175.0,PHP,Manufacturing
 662245,250.0,KES,Housing
-662067,125.0,PHP,Food#
+662067,125.0,PHP,Food
 662299,450.0,NIS,Services
 662250,625.0,UGX,Food
 661994,300.0,USD,Agriculture
@@ -9223,7 +9223,7 @@ lid,loan_amount,currency,sector#
 662006,2525.0,COP,Agriculture
 662073,125.0,PHP,Retail
 662599,500.0,MXN,Construction
-662597,500.0,MXN,Construction#
+662597,500.0,MXN,Construction
 662044,525.0,NIS,Services
 662265,625.0,JOD,Education
 662575,500.0,USD,Retail
@@ -9241,13 +9241,13 @@ lid,loan_amount,currency,sector#
 662438,525.0,COP,Arts
 662416,1200.0,USD,Food
 662476,375.0,PEN,Personal Use
-662417,1625.0,COP,Construction#
+662417,1625.0,COP,Construction
 662325,350.0,NIS,Manufacturing
-662546,2125.0,BOB,Retail#
+662546,2125.0,BOB,Retail
 662289,475.0,NIS,Manufacturing
 662353,75.0,PHP,Agriculture
 662138,1000.0,USD,Personal Use
-662335,150.0,PHP,Agriculture#
+662335,150.0,PHP,Agriculture
 662318,475.0,NIS,Retail
 662434,1275.0,HNL,Agriculture
 662564,600.0,USD,Food
@@ -9255,7 +9255,7 @@ lid,loan_amount,currency,sector#
 662385,1475.0,ALL,Housing
 662549,900.0,USD,Transportation
 662172,2950.0,AZN,Food
-662046,2375.0,UAH,Agriculture#
+662046,2375.0,UAH,Agriculture
 662041,825.0,NIS,Transportation
 662076,850.0,TJS,Agriculture
 662364,375.0,LRD,Food
@@ -9278,7 +9278,7 @@ lid,loan_amount,currency,sector#
 662531,1000.0,USD,Agriculture
 662542,5375.0,BOB,Arts
 662603,500.0,MXN,Housing
-662257,525.0,KES,Personal Use#
+662257,525.0,KES,Personal Use
 662085,875.0,NIS,Services
 662096,900.0,YER,Clothing
 662223,125.0,KES,Agriculture
@@ -9288,7 +9288,7 @@ lid,loan_amount,currency,sector#
 662093,225.0,PHP,Food
 662372,1000.0,USD,Agriculture
 662086,225.0,PHP,Agriculture
-662166,1425.0,TZS,Retail#
+662166,1425.0,TZS,Retail
 662308,250.0,NIS,Arts
 662574,775.0,GTQ,Agriculture
 662072,325.0,PHP,Retail
@@ -9296,7 +9296,7 @@ lid,loan_amount,currency,sector#
 662212,825.0,UGX,Retail
 662193,900.0,JOD,Clothing
 662239,425.0,UGX,Personal Use
-662566,2625.0,MXN,Agriculture#
+662566,2625.0,MXN,Agriculture
 662306,400.0,NIS,Transportation
 662133,225.0,UGX,Agriculture
 661991,1250.0,USD,Education
@@ -9304,11 +9304,11 @@ lid,loan_amount,currency,sector#
 662157,100.0,PHP,Services
 662170,350.0,KES,Agriculture
 662040,2850.0,UAH,Agriculture
-662258,1475.0,JOD,Education#
+662258,1475.0,JOD,Education
 662295,475.0,NIS,Manufacturing
 662443,600.0,USD,Food
 662169,750.0,TJS,Housing
-662232,2075.0,JOD,Education#
+662232,2075.0,JOD,Education
 662317,450.0,NIS,Services
 662241,1475.0,JOD,Education
 662065,850.0,USD,Services
@@ -9325,7 +9325,7 @@ lid,loan_amount,currency,sector#
 662392,350.0,USD,Education
 662277,300.0,YER,Personal Use
 662363,125.0,PHP,Agriculture
-662153,975.0,TZS,Transportation#
+662153,975.0,TZS,Transportation
 662311,400.0,NIS,Retail
 662001,225.0,PHP,Retail
 662600,375.0,COP,Education
@@ -9365,7 +9365,7 @@ lid,loan_amount,currency,sector#
 662576,400.0,USD,Housing
 662465,500.0,USD,Food
 662309,300.0,PHP,Retail
-662156,1025.0,UGX,Agriculture#
+662156,1025.0,UGX,Agriculture
 662344,950.0,NIS,Education
 662381,500.0,USD,Education
 662512,500.0,USD,Food
@@ -9374,7 +9374,7 @@ lid,loan_amount,currency,sector#
 662148,2200.0,USD,Clothing
 661987,1025.0,COP,Food
 662201,600.0,USD,Health
-662188,1250.0,KES,Transportation#
+662188,1250.0,KES,Transportation
 662069,300.0,NIS,Retail
 662509,200.0,USD,Housing
 662030,225.0,PHP,Services
@@ -9408,7 +9408,7 @@ lid,loan_amount,currency,sector#
 662462,1000.0,USD,Agriculture
 662379,825.0,UGX,Clothing
 662444,550.0,PEN,Transportation
-662123,825.0,TZS,Food#
+662123,825.0,TZS,Food
 662316,400.0,NIS,Services
 1080354,2500.0,USD,Retail
 662397,1200.0,RWF,Food
@@ -9419,7 +9419,7 @@ lid,loan_amount,currency,sector#
 662515,1000.0,USD,Agriculture
 662421,500.0,USD,Food
 662181,1500.0,USD,Retail
-662514,225.0,HNL,Clothing#
+662514,225.0,HNL,Clothing
 662260,350.0,NIS,Food
 662098,1050.0,USD,Clothing
 662505,900.0,USD,Food
@@ -9452,8 +9452,8 @@ lid,loan_amount,currency,sector#
 662589,400.0,USD,Housing
 662182,1500.0,USD,Food
 662406,200.0,USD,Agriculture
-662386,150.0,PHP,Retail#
-662303,475.0,NIS,Transportation#
+662386,150.0,PHP,Retail
+662303,475.0,NIS,Transportation
 662292,400.0,NIS,Retail
 662401,1000.0,USD,Agriculture
 662578,175.0,PHP,Agriculture
@@ -9467,12 +9467,12 @@ lid,loan_amount,currency,sector#
 662089,225.0,PHP,Food
 662412,275.0,LRD,Retail
 662204,525.0,XOF,Food
-662300,175.0,PHP,Agriculture#
-662055,475.0,NIS,Manufacturing#
+662300,175.0,PHP,Agriculture
+662055,475.0,NIS,Manufacturing
 662192,825.0,NIS,Services
 661981,225.0,PHP,Retail
 662208,2575.0,XOF,Retail
-662214,975.0,ALL,Agriculture#
+662214,975.0,ALL,Agriculture
 662074,450.0,NIS,Transportation
 662367,600.0,RWF,Food
 662461,550.0,PEN,Transportation
@@ -9480,7 +9480,7 @@ lid,loan_amount,currency,sector#
 662112,225.0,PHP,Agriculture
 662218,1125.0,JOD,Education
 662332,3000.0,USD,Retail
-662569,375.0,HNL,Agriculture#
+662569,375.0,HNL,Agriculture
 662220,775.0,NIS,Services
 662058,225.0,PHP,Retail
 662035,500.0,USD,Retail
@@ -9502,7 +9502,7 @@ lid,loan_amount,currency,sector#
 662151,2400.0,USD,Food
 662595,350.0,COP,Education
 662219,275.0,KHR,Housing
-662349,200.0,PHP,Agriculture#
+662349,200.0,PHP,Agriculture
 662023,200.0,NIS,Services
 662149,2425.0,TZS,Food
 662254,2000.0,USD,Transportation
@@ -9533,7 +9533,7 @@ lid,loan_amount,currency,sector#
 662235,1050.0,TJS,Services
 662560,600.0,USD,Services
 662080,225.0,PHP,Agriculture
-662105,225.0,PHP,Education#
+662105,225.0,PHP,Education
 662310,400.0,NIS,Transportation
 661988,375.0,PHP,Retail
 662007,225.0,PHP,Retail
@@ -9545,7 +9545,7 @@ lid,loan_amount,currency,sector#
 662178,1950.0,ALL,Agriculture
 662361,1225.0,KES,Retail
 662544,1000.0,USD,Clothing
-662195,175.0,KES,Agriculture#
+662195,175.0,KES,Agriculture
 662248,450.0,NIS,Food
 662580,1200.0,USD,Agriculture
 662095,200.0,PHP,Agriculture
@@ -9624,7 +9624,7 @@ lid,loan_amount,currency,sector#
 662320,275.0,PHP,Retail
 662017,125.0,PHP,Food
 662293,225.0,PHP,Food
-662279,550.0,UGX,Education#
+662279,550.0,UGX,Education
 662237,350.0,NIS,Transportation
 662605,400.0,GTQ,Retail
 662175,1375.0,KES,Transportation
@@ -9635,7 +9635,7 @@ lid,loan_amount,currency,sector#
 662457,500.0,USD,Food
 662331,100.0,PHP,Food
 662090,150.0,PHP,Retail
-662088,1025.0,KHR,Agriculture#
+662088,1025.0,KHR,Agriculture
 662286,575.0,NIS,Food
 663103,375.0,COP,Education
 663002,2000.0,USD,Retail
@@ -9689,7 +9689,7 @@ lid,loan_amount,currency,sector#
 663165,725.0,PEN,Agriculture
 662863,275.0,UGX,Agriculture
 662991,425.0,GHS,Retail
-662666,175.0,PHP,Agriculture#
+662666,175.0,PHP,Agriculture
 662891,350.0,NIS,Arts
 663121,200.0,USD,Manufacturing
 662964,300.0,LRD,Food
@@ -9718,7 +9718,7 @@ lid,loan_amount,currency,sector#
 663138,1000.0,USD,Agriculture
 662730,575.0,PHP,Agriculture
 663014,4150.0,BOB,Retail
-662770,1025.0,KHR,Agriculture#
+662770,1025.0,KHR,Agriculture
 662697,950.0,NIS,Retail
 662708,2175.0,TZS,Retail
 663039,725.0,PEN,Food
@@ -9742,9 +9742,9 @@ lid,loan_amount,currency,sector#
 662630,950.0,SLL,Retail
 663134,1000.0,USD,Health
 662631,1175.0,SLL,Clothing
-662999,3825.0,INR,Food#
+662999,3825.0,INR,Food
 662927,475.0,NIS,Food
-663011,550.0,PEN,Clothing#
+663011,550.0,PEN,Clothing
 662715,300.0,NIS,Services
 662894,1200.0,UAH,Agriculture
 662947,250.0,LRD,Food
@@ -9774,7 +9774,7 @@ lid,loan_amount,currency,sector#
 663098,450.0,COP,Education
 662656,200.0,PHP,Agriculture
 662802,475.0,JOD,Arts
-662704,2700.0,TZS,Services#
+662704,2700.0,TZS,Services
 662943,400.0,NIS,Retail
 663117,725.0,PEN,Retail
 663116,300.0,USD,Retail
@@ -9786,7 +9786,7 @@ lid,loan_amount,currency,sector#
 662905,850.0,USD,Agriculture
 662876,1050.0,TJS,Clothing
 663091,375.0,PEN,Food
-662851,525.0,TJS,Food#
+662851,525.0,TJS,Food
 662922,400.0,NIS,Clothing
 663020,925.0,SLL,Retail
 662988,5000.0,USD,Transportation
@@ -9798,7 +9798,7 @@ lid,loan_amount,currency,sector#
 662732,225.0,PHP,Retail
 662954,3000.0,USD,Arts
 662950,500.0,KES,Retail
-662796,625.0,JOD,Retail#
+662796,625.0,JOD,Retail
 662914,400.0,NIS,Food
 662795,400.0,PHP,Food
 662921,1425.0,UGX,Food
@@ -9820,7 +9820,7 @@ lid,loan_amount,currency,sector#
 662676,675.0,PHP,Retail
 663162,4550.0,HTG,Retail
 662908,3550.0,UAH,Retail
-662621,1100.0,USD,Agriculture#
+662621,1100.0,USD,Agriculture
 662703,250.0,NIS,Arts
 662895,1000.0,USD,Food
 663054,3025.0,PEN,Food
@@ -9885,8 +9885,8 @@ lid,loan_amount,currency,sector#
 662825,6400.0,USD,Food
 663161,400.0,USD,Housing
 662808,2400.0,USD,Food
-662658,350.0,PHP,Food#
-662804,400.0,NIS,Manufacturing#
+662658,350.0,PHP,Food
+662804,400.0,NIS,Manufacturing
 662694,875.0,NIS,Agriculture
 662663,600.0,USD,Agriculture
 663019,1000.0,USD,Housing
@@ -9894,10 +9894,10 @@ lid,loan_amount,currency,sector#
 662632,700.0,SLL,Clothing
 662942,2500.0,USD,Food
 663156,775.0,HNL,Food
-663139,475.0,HNL,Clothing#
+663139,475.0,HNL,Clothing
 662940,400.0,NIS,Services
 663184,400.0,COP,Education
-662945,250.0,LRD,Food#
+662945,250.0,LRD,Food
 662928,575.0,NIS,Retail
 663168,1600.0,PEN,Education
 663063,225.0,HNL,Retail
@@ -9905,8 +9905,8 @@ lid,loan_amount,currency,sector#
 663105,1075.0,PEN,Agriculture
 663130,225.0,SLL,Retail
 662975,275.0,UGX,Agriculture
-662962,250.0,KES,Services#
-662933,400.0,NIS,Arts#
+662962,250.0,KES,Services
+662933,400.0,NIS,Arts
 662915,400.0,NIS,Agriculture
 662750,625.0,UGX,Retail
 663053,600.0,USD,Food
@@ -9939,7 +9939,7 @@ lid,loan_amount,currency,sector#
 662760,2000.0,USD,Retail
 662634,350.0,USD,Housing
 662753,825.0,UGX,Retail
-662668,225.0,PHP,Food#
+662668,225.0,PHP,Food
 662799,250.0,NIS,Services
 662624,700.0,SLL,Services
 662788,3000.0,USD,Retail
@@ -9953,7 +9953,7 @@ lid,loan_amount,currency,sector#
 663125,200.0,USD,Food
 663170,1075.0,PEN,Food
 663141,525.0,HNL,Retail
-662781,1175.0,JOD,Education#
+662781,1175.0,JOD,Education
 662934,400.0,NIS,Transportation
 663005,4825.0,DOP,Education
 663061,5150.0,PEN,Food
@@ -9961,8 +9961,8 @@ lid,loan_amount,currency,sector#
 662720,1225.0,UGX,Housing
 662972,1150.0,USD,Clothing
 662833,2400.0,USD,Retail
-663000,2400.0,BOB,Clothing#
-662763,450.0,NIS,Services#
+663000,2400.0,BOB,Clothing
+662763,450.0,NIS,Services
 662917,400.0,NIS,Retail
 663077,225.0,SLL,Retail
 662923,1225.0,UGX,Food
@@ -10000,4 +10000,4 @@ lid,loan_amount,currency,sector#
 662826,525.0,KES,Retail
 662872,375.0,LRD,Food
 653207,1500.0,USD,Agriculture
-653207777,1500.0,USD,Agriculture
+653208,1500.0,USD,Agriculture
