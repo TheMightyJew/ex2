@@ -16,7 +16,7 @@ class Heap:
         """
         myfile=open(source_file,"r")
         targetfile=open(self.filename,"w")
-        targetfile.write(myfile.read() + '\n')
+        targetfile.write(myfile.read())
         targetfile.close()
         myfile.close()
 
@@ -27,7 +27,7 @@ class Heap:
         :param line: string reprsent new row, separated by comma. example: '653207,1500.0,USD,Agriculture'
         """
         writefile=open(self.filename, 'a')
-        writefile.write(line+'\n')
+        writefile.write('\n'+line)
         writefile.close()
         #fields = line.split(',')
         #with open(self.filename, 'a') as f:
@@ -54,19 +54,17 @@ class Heap:
                 indexCol=counter
             else :
                 counter+=1
-        newRow = newRow[:-1] + '\n'
+        newRow = newRow[:-1]
         writeFile.write(newRow)
-        i=0
         for row in mycsv:
             newRow = ''
             for word in row:
                 newRow += word + ','
-            newRow = newRow[:-1]+'\n'
+            newRow = '\n'+newRow[:-1]
             if row[indexCol] == value:
                 writeFile.write('#' + newRow)
             else:
                 writeFile.write(newRow)
-            i=i=+1
         writeFile.close()
         self.create('temp.txt')
         os.remove('temp.txt')
@@ -90,9 +88,8 @@ class Heap:
                 indexCol=counter
             else :
                 counter+=1
-        newRow = newRow[:-1] + '\n'
+        newRow = newRow[:-1]
         writeFile.write(newRow)
-        i = 0
         for row in mycsv:
             newRow = ''
             counter=0
@@ -102,9 +99,8 @@ class Heap:
                 else :
                     newRow += word + ','
                 counter+=1
-            newRow = newRow[:-1]+'\n'
+            newRow = '\n'+newRow[:-1]
             writeFile.write(newRow)
-            i = i + 1
         writeFile.close()
         self.create('temp.txt')
         os.remove('temp.txt')
