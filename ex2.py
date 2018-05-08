@@ -26,10 +26,13 @@ class Heap:
         The function insert new line to heap file
         :param line: string reprsent new row, separated by comma. example: '653207,1500.0,USD,Agriculture'
         """
-        fields = line.split(',')
-        with open(self.filename, 'a') as f:
-            writer = csv.writer(f)
-            writer.writerow(fields)
+        writefile=open(self.filename, 'a')
+        writefile.write(line+'\n')
+        writefile.close()
+        #fields = line.split(',')
+        #with open(self.filename, 'a') as f:
+        #   writer = csv.writer(f)
+        #   writer.writerow(fields)
 
     def delete(self, col_name, value):
         """
@@ -38,6 +41,8 @@ class Heap:
         :param col_name: the name of the column. example: 'currency'
         :param value: example: 'PKR'
         """
+        if os._exists('temp.txt'):
+            os.remove('temp.txt')
         writeFile = open('temp.txt','a')
         mycsv=csv.reader(open(self.filename))
         indexCol=0
@@ -51,6 +56,7 @@ class Heap:
                 counter+=1
         newRow = newRow[:-1] + '\n'
         writeFile.write(newRow)
+        i=0
         for row in mycsv:
             newRow = ''
             for word in row:
@@ -60,8 +66,9 @@ class Heap:
                 writeFile.write('#' + newRow)
             else:
                 writeFile.write(newRow)
-        self.create('temp.txt')
+            i=i=+1
         writeFile.close()
+        self.create('temp.txt')
         os.remove('temp.txt')
     def update(self, col_name, old_value, new_value, ):
         """
@@ -70,6 +77,8 @@ class Heap:
         :param old_value: example: 'TZS'
         :param new_value: example: 'NIS'
         """
+        if os._exists('temp.txt'):
+            os.remove('temp.txt')
         writeFile = open('temp.txt','a')
         mycsv=csv.reader(open(self.filename))
         indexCol=0
@@ -83,26 +92,29 @@ class Heap:
                 counter+=1
         newRow = newRow[:-1] + '\n'
         writeFile.write(newRow)
+        i = 0
         for row in mycsv:
             newRow = ''
             counter=0
             for word in row:
-                if counter==indexCol and row[indexCol] == old_value:
+                if counter==indexCol and word == old_value:
                     newRow += new_value + ','
                 else :
                     newRow += word + ','
                 counter+=1
             newRow = newRow[:-1]+'\n'
             writeFile.write(newRow)
-        self.create('temp.txt')
+            i = i + 1
         writeFile.close()
+        self.create('temp.txt')
         os.remove('temp.txt')
 
 heap = Heap('heap.txt')
 heap.create('kiva.txt')
 heap.insert('653207,1500.0,USD,Agriculture')
+heap.insert('653207777,1500.0,USD,Agriculture')
 heap.update('currency','PKR','NIS')
-heap.delete('currency','PKR')
+heap.delete('currency','NIS')
 
 class SortedFile:
 
