@@ -37,9 +37,7 @@ class Heap:
         :param col_name: the name of the column. example: 'currency'
         :param value: example: 'PKR'
         """
-        if os._exists('temp.txt'):
-            os.remove('temp.txt')
-        writeFile = open('temp.txt','a')
+        writeFile = open('temp.txt','w')
         mycsv=csv.reader(open(self.filename))
         indexCol=0
         counter=0
@@ -58,7 +56,7 @@ class Heap:
                 newRow += word + ','
             newRow =newRow[:-1]
             if row[indexCol] == value:
-                writeFile.write('\n'+'#' + newRow)
+                writeFile.write('\n'+'#' + newRow[1:])
             else:
                 writeFile.write('\n'+newRow)
         writeFile.close()
@@ -71,9 +69,7 @@ class Heap:
         :param old_value: example: 'TZS'
         :param new_value: example: 'NIS'
         """
-        if os._exists('temp.txt'):
-            os.remove('temp.txt')
-        writeFile = open('temp.txt','a')
+        writeFile = open('temp.txt','w')
         mycsv=csv.reader(open(self.filename))
         indexCol=0
         counter=0
@@ -101,12 +97,22 @@ class Heap:
         self.create('temp.txt')
         os.remove('temp.txt')
 
-heap = Heap('heap.txt')
-heap.create('kiva.txt')
-heap.insert('653207,1500.0,USD,Agriculture')
-heap.insert('653208,1500.0,USD,Agriculture')
-heap.update('currency','PKR','NIS')
-heap.delete('currency','USD')
+#heap = Heap('heap.txt')
+#heap.create('kiva.txt')
+#heap.insert('653207,1500.0,USD,Agriculture')
+#heap.insert('653208,1500.0,USD,Agriculture')
+#heap.update('currency','PKR','NIS')
+#heap.delete('currency','USD')
+
+
+def ifBigger(a, b):
+    if(a.__len__()==0 or b.__len__()==0):
+        return (a > b)
+    checkA = a[0].isdigit()
+    checkB = b[0].isdigit()
+    if (checkA and checkB):
+       return float(a) > float(b)
+    return (a > b)
 
 class SortedFile:
 
@@ -127,36 +133,51 @@ class SortedFile:
         mycsv=csv.reader(reader)
         targetfile=open(self.fileName,"w")
         newRow=''
+        indexCol=0
+        counter=0
         for word in next(mycsv):
+            if word==self.sortBy:
+                indexCol=counter
             newRow += word + ','
+            counter+=1
         newRow =newRow[:-1]
         targetfile.write(newRow)
         num=0
         for row in mycsv:
             num+=1
         reader.seek(0)
+        next(mycsv)
+        minValue=next(mycsv)[indexCol]
+        i=0
         for row in mycsv:
-
-        for i in range[0,num]:
-
-            for
-        for row in mycsv:
+            if ifBigger(minValue,row[indexCol]):
+                minValue=row[indexCol]
+        nextMinValue=minValue
+        i=0
+        while i<num:
+            minValue=nextMinValue
+            nextMinValue=''
+            reader.seek(0)
+            next(mycsv)
+            for row in mycsv:
+                if row[indexCol]==minValue:
+                    newRow=''
+                    for word in row:
+                        newRow += word + ','
+                    newRow = newRow[:-1]
+                    targetfile.write('\n'+newRow)
+                    i+=1
+                if ifBigger(row[indexCol],minValue) and (nextMinValue==''or ifBigger(nextMinValue,row[indexCol])):
+                    nextMinValue=row[indexCol]
         targetfile.close()
-        for row in mycsv:
-            newRow = ''
-            for word in row:
-                newRow +=word + ','
-            newRow =newRow[:-1]
-            self.insert(newRow)
+        reader.close()
 
     def insert(self, line):
         """
         The function insert new line to sorted file according to the value of col_name.
         :param line: string of row separated by comma. example: '653207,1500.0,USD,Agriculture'
         """
-        if os._exists('temp.txt'):
-            os.remove('temp.txt')
-        writeFile = open('temp.txt','a')
+        writeFile = open('temp.txt','w')
         mycsv=csv.reader(open(self.fileName))
         indexCol=0
         counter=0
@@ -173,7 +194,7 @@ class SortedFile:
         written=False
         for row in mycsv:
             newRow = ''
-            if row[indexCol] > fields[indexCol] and written==False:
+            if ifBigger(row[indexCol],fields[indexCol]) and written==False:
                 writeFile.write('\n'+line)
                 written=True
             for word in row:
@@ -197,9 +218,7 @@ class SortedFile:
         Deletion done by mark # in the head of line.
         :param value: example: 'PKR'
         """
-        if os._exists('temp.txt'):
-            os.remove('temp.txt')
-        writeFile = open('temp.txt','a')
+        writeFile = open('temp.txt','w')
         mycsv=csv.reader(open(self.fileName))
         indexCol=0
         counter=0
@@ -217,9 +236,7 @@ class SortedFile:
             for word in row:
                 newRow += word + ','
             newRow =newRow[:-1]
-            if row[indexCol] == value:
-                writeFile.write('\n'+'#' + newRow)
-            else:
+            if row[indexCol] != value:
                 writeFile.write('\n'+newRow)
         writeFile.close()
         self.create('temp.txt')
@@ -231,9 +248,7 @@ class SortedFile:
         :param old_value: example: 'TZS'
         :param new_value: example: 'NIS'
         """
-        if os._exists('temp.txt'):
-            os.remove('temp.txt')
-        writeFile = open('temp.txt','a')
+        writeFile = open('tempUpdate.txt','w')
         mycsv=csv.reader(open(self.fileName))
         indexCol=0
         counter=0
@@ -246,33 +261,31 @@ class SortedFile:
                 counter+=1
         newRow = newRow[:-1]
         writeFile.write(newRow)
-        changedLine=[]
         for row in mycsv:
-            if row[indexCol] == old_value:
-                changedLine.append(row)
-                continue
-            else:
-                newRow = ''
-                for word in row:
-                    newRow += word + ','
-                newRow = newRow[:-1]
-                writeFile.write('\n'+newRow)
-        for line in changedLine:
             newRow = ''
-            line[indexCol]=new_value
-            for word in line:
-                newRow += word + ','
+            num = 0
+            for word in row:
+                if(num==indexCol and word==old_value):
+                    newRow += new_value + ','
+                else:
+                    newRow += word + ','
+                num+=1
             newRow = newRow[:-1]
-            self.insert(newRow)
+            writeFile.write('\n' + newRow)
         writeFile.close()
-        self.create('temp.txt')
-        os.remove('temp.txt')
+        self.create('tempUpdate.txt')
+        os.remove('tempUpdate.txt')
 
-sf = SortedFile('SortedFile.txt', 'loan_amount')
-sf.create('kiva.txt')
-sf.insert('653207,2.0,USD,Agriculture')
-sf.delete('625.0')
-sf.update('150.0','12')
+#sf = SortedFile('SortedFile.txt', 'loan_amount')
+#sf.create('kiva.txt')
+#sf.insert('653207,2.0,USD,Agricu')
+#sf.delete('625.0')
+#sf.update('150.0','12.00')
+
+def hashItUp(x,N):
+    if(x[0].isdigit()):
+        return (int(x)%N+1)
+    return (ord(x[0])&N+1)
 
 class Hash:
     def __init__(self, file_name, N=5):
@@ -280,6 +293,9 @@ class Hash:
         :param file_name: the name of the hash file to create. example: kiva_hash.txt
         :param N: number of buckets/slots.
         """
+        self.file_name=file_name
+        self.NOB=N
+
 
     def create(self, source_file, col_name):
         """
@@ -298,6 +314,41 @@ class Hash:
         653088|12,653048|10,653078|8,1080148|6,653068|3,
         653089|13,
         """
+        writeFile = open(self.file_name,'w')
+        writeTemp = open('tempCreate.txt','w')
+        readfile=open(source_file,'r')
+        mycsv=csv.reader(readfile)
+        indexCol=0
+        for word in next(mycsv):
+            if word==col_name:
+                break
+            indexCol+=1
+        for j in range (1,self.NOB+1):
+            readfile.seek(0)
+            next(mycsv)
+            rowNum=0
+            for row in mycsv:
+                if hashItUp(row[indexCol],self.NOB)==j:
+                    writeTemp.write(row[indexCol]+'|'+rowNum.__str__()+',')
+                rowNum+=1
+            writeTemp.write('\n')
+        writeTemp.close()
+        reader=open('tempCreate.txt','r')
+        csvtmp=csv.reader(reader)
+        for row in csvtmp:
+            list=row
+            i=len(list)-2
+            while i>=0:
+                writeFile.write(list[i]+',')
+                i=i-1
+            writeFile.write('\n')
+        reader.close()
+
+        os.remove('tempCreate.txt')
+        writeFile.close()
+        readfile.close()
+
+
 
     def add(self, value, ptr):
         """
@@ -305,6 +356,26 @@ class Hash:
         :param value: the value of col_name of the new instance.
         :param ptr: the row number of the new instance in the heap file.
         """
+        writeTemp = open('tempCreate.txt','w')
+        reader=open(self.file_name,"r")
+        mycsv=csv.reader(reader)
+        rowNum=hashItUp(value,self.NOB)
+        counter=1
+        for row in mycsv:
+            if counter==rowNum:
+                writeTemp.write(value+'|'+ptr+',')
+            for word in row:
+                writeTemp.write(word+',')
+            writeTemp.write('\n')
+            counter+=1
+        writeTemp.close()
+        reader.close()
+        writeTemp = open('tempCreate.txt','r')
+        reader=open(self.file_name,"w")
+        reader.write(writeTemp.read())
+        writeTemp.close()
+        os.remove('tempCreate.txt')
+        reader.close()
 
 
     def remove(self, value, ptr):
@@ -313,13 +384,32 @@ class Hash:
         :param value: the value of col_name.
         :param ptr: the row number of the instance in the heap file.
         """
+        writeTemp = open('tempCreate.txt','w')
+        reader=open(self.file_name,"r")
+        mycsv=csv.reader(reader)
+        for row in mycsv:
+            for word in row:
+                list=word.split('|')
+                if value!=list[0] or ptr!=list[1]:
+                    writeTemp.write(word+',')
+            writeTemp.write('\n')
+        writeTemp.close()
+        reader.close()
+        writeTemp = open('tempCreate.txt','r')
+        reader=open(self.file_name,"w")
+        reader.write(writeTemp.read())
+        writeTemp.close()
+        reader.close()
+        os.remove('tempCreate.txt')
 
 
-# heap = Heap("heap_for_hash.txt")
-# hash = Hash('hash_file.txt', 10)
+heap = Heap("heap_for_hash.txt")
+hash = Hash('hash_file.txt', 10)
 
-# heap.create('kiva.txt')
-# hash.create('kiva.txt', 'lid')
+heap.create('kiva.txt')
+hash.create('kiva.txt', 'lid')
 
-# heap.insert('653207,1500.0,USD,Agriculture')
-# hash.add('653207','11')
+heap.insert('653207,1500.0,USD,Agriculture')
+hash.add('653207','11')
+heap.delete('lid','653207')
+hash.remove('653207','11')
