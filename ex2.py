@@ -1,6 +1,6 @@
 import csv
-import operator
 import os
+import time
 
 class Heap:
     def __init__(self, file_name):
@@ -96,13 +96,12 @@ class Heap:
         writeFile.close()
         self.create('temp.txt')
         os.remove('temp.txt')
-
-#heap = Heap('heap.txt')
-#heap.create('kiva.txt')
-#heap.insert('653207,1500.0,USD,Agriculture')
-#heap.insert('653208,1500.0,USD,Agriculture')
-#heap.update('currency','PKR','NIS')
-#heap.delete('currency','USD')
+# heap = Heap('heap.txt')
+# heap.create('kiva.txt')
+# heap.insert('653207,1500.0,USD,Agriculture')
+# heap.update('currency','INR','NIS')
+# heap.delete('currency','NIS')
+# #heap.insert('653208,1500.0,USD,Agriculture')
 
 
 def ifBigger(a, b):
@@ -171,6 +170,35 @@ class SortedFile:
                     nextMinValue=row[indexCol]
         targetfile.close()
         reader.close()
+
+    def binarySearch(self, value):
+        reader=open(self.fileName,'r');
+        mycsv=csv.reader(reader)
+        indexCol=0
+        for word in next(mycsv):
+            if word==self.sortBy:
+                break
+            indexCol+=1
+        reader.seek(0)
+        firstLength=reader.readline().__len__()+1
+        lineLength=reader.readline().__len__()+1
+        reader.seek(0)
+        start=firstLength
+        reader.seek(0,2)
+        end=reader.tell()
+        while(end-start>=lineLength):
+            middle=(end+start)/2
+            check=(middle-firstLength)%lineLength
+            middle-=check
+            reader.seek(middle)
+            row=next(mycsv)
+            if row[indexCol]==value:
+                return middle
+            elif ifBigger(row[indexCol],value):
+                    end=middle-lineLength
+            else:
+                start=middle+lineLength
+        return -1
 
     def insert(self, line):
         """
@@ -276,11 +304,12 @@ class SortedFile:
         self.create('tempUpdate.txt')
         os.remove('tempUpdate.txt')
 
-#sf = SortedFile('SortedFile.txt', 'loan_amount')
-#sf.create('kiva.txt')
-#sf.insert('653207,2.0,USD,Agricu')
-#sf.delete('625.0')
-#sf.update('150.0','12.00')
+# sf = SortedFile('SortedFile.txt', 'loan_amount')
+# sf.create('kiva.txt')
+# sf.insert('653207,2.0,USD,Agricu')
+# sf.binarySearch('2.0')
+# # sf.delete('400.0')
+# # sf.update('400.0','12.00')
 
 def hashItUp(x,N):
     if(x[0].isdigit()):
@@ -403,13 +432,12 @@ class Hash:
         os.remove('tempCreate.txt')
 
 
-heap = Heap("heap_for_hash.txt")
-hash = Hash('hash_file.txt', 10)
+# heap = Heap("heap_for_hash.txt")
+# heap.create('kiva.txt')
+# hash = Hash('hash_file.txt', 1000)
+# hash.create('kiva.txt', 'lid')
+# heap.insert('653207,1500.0,USD,Agriculture')
+# # hash.add('653207','11')
+# # heap.delete('lid','653207')
+# hash.remove('653207','11')
 
-heap.create('kiva.txt')
-hash.create('kiva.txt', 'lid')
-
-heap.insert('653207,1500.0,USD,Agriculture')
-hash.add('653207','11')
-heap.delete('lid','653207')
-hash.remove('653207','11')
